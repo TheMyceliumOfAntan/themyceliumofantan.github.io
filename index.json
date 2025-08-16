@@ -1,0 +1,692 @@
+{
+  "api/Qomicex_Core.DataDetails.Account.html": {
+    "href": "api/Qomicex_Core.DataDetails.Account.html",
+    "title": "DataDetails.Account 类 | Qomicex Core Docs",
+    "summary": "DataDetails.Account 类 命名空间 Qomicex_Core 程序集 Qomicex.Core.dll public class DataDetails.Account 继承 object DataDetails.Account 继承成员 object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() 字段 AccessToken public string AccessToken 字段值 string LoginMethod public string LoginMethod 字段值 string Name public string Name 字段值 string RefreshToken public string RefreshToken 字段值 string Token public string Token 字段值 string Uuid public string Uuid 字段值 string"
+  },
+  "api/Qomicex_Core.DataDetails.Java.html": {
+    "href": "api/Qomicex_Core.DataDetails.Java.html",
+    "title": "DataDetails.Java 类 | Qomicex Core Docs",
+    "summary": "DataDetails.Java 类 命名空间 Qomicex_Core 程序集 Qomicex.Core.dll public class DataDetails.Java 继承 object DataDetails.Java 继承成员 object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() 字段 Arch public string Arch 字段值 string Name public string Name 字段值 string Path public string Path 字段值 string Type public string Type 字段值 string Version public string Version 字段值 string VersionID public int VersionID 字段值 int"
+  },
+  "api/Qomicex_Core.DataDetails.Launcher.WindowSize.html": {
+    "href": "api/Qomicex_Core.DataDetails.Launcher.WindowSize.html",
+    "title": "DataDetails.Launcher.WindowSize 类 | Qomicex Core Docs",
+    "summary": "DataDetails.Launcher.WindowSize 类 命名空间 Qomicex_Core 程序集 Qomicex.Core.dll public class DataDetails.Launcher.WindowSize 继承 object DataDetails.Launcher.WindowSize 继承成员 object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() 字段 Width public string Width 字段值 string height public string height 字段值 string"
+  },
+  "api/Qomicex_Core.DataDetails.Launcher.html": {
+    "href": "api/Qomicex_Core.DataDetails.Launcher.html",
+    "title": "DataDetails.Launcher 类 | Qomicex Core Docs",
+    "summary": "DataDetails.Launcher 类 命名空间 Qomicex_Core 程序集 Qomicex.Core.dll public class DataDetails.Launcher 继承 object DataDetails.Launcher Derived Launcher.LauncherParam 继承成员 object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() 字段 Account public DataDetails.Account Account 字段值 DataDetails.Account AdditionalParam public string AdditionalParam 字段值 string DevideVersion public bool DevideVersion 字段值 bool Java public DataDetails.Java Java 字段值 DataDetails.Java MaxMemory public string MaxMemory 字段值 string Version public string Version 字段值 string"
+  },
+  "api/Qomicex_Core.DataDetails.Version.html": {
+    "href": "api/Qomicex_Core.DataDetails.Version.html",
+    "title": "DataDetails.Version 类 | Qomicex Core Docs",
+    "summary": "DataDetails.Version 类 命名空间 Qomicex_Core 程序集 Qomicex.Core.dll public class DataDetails.Version 继承 object DataDetails.Version 继承成员 object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() 构造函数 Version(string) public Version(string gameDir = \"\") 参数 gameDir string 字段 GameDir public string GameDir 字段值 string GameVersion public string GameVersion 字段值 string State public string State 字段值 string StateDescribe public string StateDescribe 字段值 string Type public string[] Type 字段值 string[] VersionDir public string VersionDir 字段值 string 属性 Name public string Name { get; set; } 属性值 string"
+  },
+  "api/Qomicex_Core.DataDetails.html": {
+    "href": "api/Qomicex_Core.DataDetails.html",
+    "title": "DataDetails 类 | Qomicex Core Docs",
+    "summary": "DataDetails 类 命名空间 Qomicex_Core 程序集 Qomicex.Core.dll public class DataDetails 继承 object DataDetails 继承成员 object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString()"
+  },
+  "api/Qomicex_Core.Modules.Account.Microsoft.OAuthResponse.html": {
+    "href": "api/Qomicex_Core.Modules.Account.Microsoft.OAuthResponse.html",
+    "title": "Microsoft.OAuthResponse 类 | Qomicex Core Docs",
+    "summary": "Microsoft.OAuthResponse 类 命名空间 Qomicex_Core.Modules.Account 程序集 Qomicex.Core.dll public class Microsoft.OAuthResponse 继承 object Microsoft.OAuthResponse 继承成员 object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() 字段 DeviceCode public string DeviceCode 字段值 string UserCode public string UserCode 字段值 string VerificationUri public string VerificationUri 字段值 string 属性 ExpiresIn public int ExpiresIn { get; set; } 属性值 int Interval public int Interval { get; set; } 属性值 int"
+  },
+  "api/Qomicex_Core.Modules.Account.Microsoft.html": {
+    "href": "api/Qomicex_Core.Modules.Account.Microsoft.html",
+    "title": "Microsoft 类 | Qomicex Core Docs",
+    "summary": "Microsoft 类 命名空间 Qomicex_Core.Modules.Account 程序集 Qomicex.Core.dll public class Microsoft 继承 object Microsoft 继承成员 object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() 构造函数 Microsoft(string) public Microsoft(string ClientId) 参数 ClientId string 方法 GetUserAuthorizationState(OAuthResponse) public Task<Dictionary<string, string>> GetUserAuthorizationState(Microsoft.OAuthResponse oAuthResponse) 参数 oAuthResponse Microsoft.OAuthResponse 返回 Task<Dictionary<string, string>> GetUserInfo(string, string) public Task<DataDetails.Account> GetUserInfo(string accessToken, string refresh_token) 参数 accessToken string refresh_token string 返回 Task<DataDetails.Account> OAuthLogin() public Task<Microsoft.OAuthResponse> OAuthLogin() 返回 Task<Microsoft.OAuthResponse> RefreshUserInfo(string) public Task<DataDetails.Account> RefreshUserInfo(string refreshToken) 参数 refreshToken string 返回 Task<DataDetails.Account>"
+  },
+  "api/Qomicex_Core.Modules.Account.html": {
+    "href": "api/Qomicex_Core.Modules.Account.html",
+    "title": "Qomicex_Core.Modules.Account 命名空间 | Qomicex Core Docs",
+    "summary": "Qomicex_Core.Modules.Account 命名空间 类 Microsoft Microsoft.OAuthResponse"
+  },
+  "api/Qomicex_Core.Modules.Installer.FabricInstaller.Library.html": {
+    "href": "api/Qomicex_Core.Modules.Installer.FabricInstaller.Library.html",
+    "title": "FabricInstaller.Library 类 | Qomicex Core Docs",
+    "summary": "FabricInstaller.Library 类 命名空间 Qomicex_Core.Modules.Installer 程序集 Qomicex.Core.dll public class FabricInstaller.Library 继承 object FabricInstaller.Library 继承成员 object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() 属性 Md5 public string? Md5 { get; set; } 属性值 string Name public string? Name { get; set; } 属性值 string Sha1 public string? Sha1 { get; set; } 属性值 string Sha256 public string? Sha256 { get; set; } 属性值 string Sha512 public string? Sha512 { get; set; } 属性值 string Size public long? Size { get; set; } 属性值 long? Url public string? Url { get; set; } 属性值 string"
+  },
+  "api/Qomicex_Core.Modules.Installer.FabricInstaller.html": {
+    "href": "api/Qomicex_Core.Modules.Installer.FabricInstaller.html",
+    "title": "FabricInstaller 类 | Qomicex Core Docs",
+    "summary": "FabricInstaller 类 命名空间 Qomicex_Core.Modules.Installer 程序集 Qomicex.Core.dll public class FabricInstaller : InstallerBase 继承 object InstallerBase FabricInstaller 继承成员 object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() 构造函数 FabricInstaller(int, string) public FabricInstaller(int downloadSource, string gameDir) 参数 downloadSource int gameDir string 方法 InstallFabric(string, string, string) 安装Fabric Loader public Task<bool> InstallFabric(string versionId, string fabricVersion, string gameVersion) 参数 versionId string fabricVersion string gameVersion string 返回 Task<bool> 是否成功 InstallFabricAsync(string, string, string) 异步安装Fabric Loader public Task<bool> InstallFabricAsync(string versionId, string fabricVersion, string gameVersion) 参数 versionId string fabricVersion string gameVersion string 返回 Task<bool> 是否成功 InstallFabricWithMainJson(string, string, string, string) 安装Fabric Loader并使用主版本JSON数据 public Task<bool> InstallFabricWithMainJson(string versionId, string fabricVersion, string gameVersion, string mainJsonData) 参数 versionId string fabricVersion string gameVersion string mainJsonData string 返回 Task<bool> 是否成功 InstallFabricWithMainJsonAsync(string, string, string, string) 异步安装Fabric Loader并使用主版本JSON数据 public Task<bool> InstallFabricWithMainJsonAsync(string versionId, string fabricVersion, string gameVersion, string mainJsonData) 参数 versionId string fabricVersion string gameVersion string mainJsonData string 返回 Task<bool> 是否成功"
+  },
+  "api/Qomicex_Core.Modules.Installer.ForgeInstaller.html": {
+    "href": "api/Qomicex_Core.Modules.Installer.ForgeInstaller.html",
+    "title": "ForgeInstaller 类 | Qomicex Core Docs",
+    "summary": "ForgeInstaller 类 命名空间 Qomicex_Core.Modules.Installer 程序集 Qomicex.Core.dll public class ForgeInstaller : InstallerBase 继承 object InstallerBase ForgeInstaller 继承成员 object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() 构造函数 ForgeInstaller(string, string, int, string) public ForgeInstaller(string gameDir, string gameVersion, int downloadSource, string javaPath) 参数 gameDir string gameVersion string downloadSource int javaPath string 方法 GetMissForgeLibraries(string, string) 获取缺失的 Forge 库文件列表 public List<Local.MissFileData> GetMissForgeLibraries(string forgeInstallerPath, string versionId) 参数 forgeInstallerPath string Forge安装器路径 versionId string 版本ID 返回 List<Local.MissFileData> 异常 Exception GetMissForgeLibrariesAsync(string, string) 异步获取缺失的 Forge 库文件列表 public Task<List<Local.MissFileData>> GetMissForgeLibrariesAsync(string forgeInstallerPath, string versionId) 参数 forgeInstallerPath string Forge安装器路径 versionId string 版本ID 返回 Task<List<Local.MissFileData>> 异常 Exception InstallHighVersionForge(string, string, string?) 安装高版本 Forge,安装前请确保原版游戏主Jar存在 public Task<bool> InstallHighVersionForge(string forgeInstallerPath, string versionId, string? inheritsFromJson) 参数 forgeInstallerPath string Forge安装器路径 versionId string 生成的版本ID inheritsFromJson string 依赖版本Json 返回 Task<bool> 是否成功 InstallHighVersionForgeAsync(string, string, string?) 异步安装高版本 Forge public Task<bool> InstallHighVersionForgeAsync(string forgeInstallerPath, string versionId, string? inheritsFromJson) 参数 forgeInstallerPath string Forge安装器路径 versionId string 生成的版本ID inheritsFromJson string 依赖版本Json 返回 Task<bool> 是否成功 InstallLegacyForgeAsync(string, string, string?) 异步安装旧版本 Forge public Task<bool> InstallLegacyForgeAsync(string forgeInstallerPath, string versionId, string? inheritsFromJson) 参数 forgeInstallerPath string Forge安装器路径 versionId string 生成的版本ID inheritsFromJson string 返回 Task<bool> 是否成功 SetVanillaJarPath(string) public void SetVanillaJarPath(string vMJarPath) 参数 vMJarPath string"
+  },
+  "api/Qomicex_Core.Modules.Installer.InstallerBase.DownloadSource.html": {
+    "href": "api/Qomicex_Core.Modules.Installer.InstallerBase.DownloadSource.html",
+    "title": "InstallerBase.DownloadSource 枚举 | Qomicex Core Docs",
+    "summary": "InstallerBase.DownloadSource 枚举 命名空间 Qomicex_Core.Modules.Installer 程序集 Qomicex.Core.dll public enum InstallerBase.DownloadSource 字段 Bmclapi = 1 Official = 0"
+  },
+  "api/Qomicex_Core.Modules.Installer.InstallerBase.html": {
+    "href": "api/Qomicex_Core.Modules.Installer.InstallerBase.html",
+    "title": "InstallerBase 类 | Qomicex Core Docs",
+    "summary": "InstallerBase 类 命名空间 Qomicex_Core.Modules.Installer 程序集 Qomicex.Core.dll public class InstallerBase 继承 object InstallerBase Derived FabricInstaller ForgeInstaller LiteloaderInstaller LiteloaderInstaller.LiteLoaderInstaller NeoForgeInstaller QuiltInstaller VanillaInstaller 继承成员 object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString()"
+  },
+  "api/Qomicex_Core.Modules.Installer.LiteloaderInstaller.Artifact.html": {
+    "href": "api/Qomicex_Core.Modules.Installer.LiteloaderInstaller.Artifact.html",
+    "title": "LiteloaderInstaller.Artifact 类 | Qomicex Core Docs",
+    "summary": "LiteloaderInstaller.Artifact 类 命名空间 Qomicex_Core.Modules.Installer 程序集 Qomicex.Core.dll public class LiteloaderInstaller.Artifact 继承 object LiteloaderInstaller.Artifact 继承成员 object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) 构造函数 Artifact(string, string, string) public Artifact(string groupId, string artifactId, string version) 参数 groupId string artifactId string version string 属性 ArtifactId public string ArtifactId { get; set; } 属性值 string GroupId public string GroupId { get; set; } 属性值 string Version public string Version { get; set; } 属性值 string 方法 ToString() Returns a string that represents the current object. public override string ToString() 返回 string A string that represents the current object."
+  },
+  "api/Qomicex_Core.Modules.Installer.LiteloaderInstaller.InstallProgress.html": {
+    "href": "api/Qomicex_Core.Modules.Installer.LiteloaderInstaller.InstallProgress.html",
+    "title": "LiteloaderInstaller.InstallProgress 类 | Qomicex Core Docs",
+    "summary": "LiteloaderInstaller.InstallProgress 类 命名空间 Qomicex_Core.Modules.Installer 程序集 Qomicex.Core.dll public class LiteloaderInstaller.InstallProgress 继承 object LiteloaderInstaller.InstallProgress 继承成员 object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() 属性 IsCompleted public bool IsCompleted { get; set; } 属性值 bool IsError public bool IsError { get; set; } 属性值 bool Message public string Message { get; set; } 属性值 string Percentage public int Percentage { get; set; } 属性值 int"
+  },
+  "api/Qomicex_Core.Modules.Installer.LiteloaderInstaller.Library.html": {
+    "href": "api/Qomicex_Core.Modules.Installer.LiteloaderInstaller.Library.html",
+    "title": "LiteloaderInstaller.Library 类 | Qomicex Core Docs",
+    "summary": "LiteloaderInstaller.Library 类 命名空间 Qomicex_Core.Modules.Installer 程序集 Qomicex.Core.dll public class LiteloaderInstaller.Library 继承 object LiteloaderInstaller.Library 继承成员 object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() 属性 Artifact public LiteloaderInstaller.Artifact? Artifact { get; set; } 属性值 LiteloaderInstaller.Artifact DownloadInfo public LiteloaderInstaller.LibraryDownloadInfo? DownloadInfo { get; set; } 属性值 LiteloaderInstaller.LibraryDownloadInfo Url public string? Url { get; set; } 属性值 string"
+  },
+  "api/Qomicex_Core.Modules.Installer.LiteloaderInstaller.LibraryDownloadInfo.html": {
+    "href": "api/Qomicex_Core.Modules.Installer.LiteloaderInstaller.LibraryDownloadInfo.html",
+    "title": "LiteloaderInstaller.LibraryDownloadInfo 类 | Qomicex Core Docs",
+    "summary": "LiteloaderInstaller.LibraryDownloadInfo 类 命名空间 Qomicex_Core.Modules.Installer 程序集 Qomicex.Core.dll public class LiteloaderInstaller.LibraryDownloadInfo 继承 object LiteloaderInstaller.LibraryDownloadInfo 继承成员 object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() 属性 Path public string? Path { get; set; } 属性值 string Url public string? Url { get; set; } 属性值 string"
+  },
+  "api/Qomicex_Core.Modules.Installer.LiteloaderInstaller.LiteLoaderInstaller.html": {
+    "href": "api/Qomicex_Core.Modules.Installer.LiteloaderInstaller.LiteLoaderInstaller.html",
+    "title": "LiteloaderInstaller.LiteLoaderInstaller 类 | Qomicex Core Docs",
+    "summary": "LiteloaderInstaller.LiteLoaderInstaller 类 命名空间 Qomicex_Core.Modules.Installer 程序集 Qomicex.Core.dll public class LiteloaderInstaller.LiteLoaderInstaller : InstallerBase 继承 object InstallerBase LiteloaderInstaller.LiteLoaderInstaller 继承成员 object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() 构造函数 LiteLoaderInstaller(int, string, int) public LiteLoaderInstaller(int downloadSource, string gameDir, int threadNum = 8) 参数 downloadSource int gameDir string threadNum int 字段 downloadSource public readonly int downloadSource 字段值 int 方法 InstallLiteLoaderAsync(string, string, string, IProgress<InstallProgress>?, CancellationToken) 安装Liteloader,只需提供MC版本和LiteLoader版本,支持实时进度报告 public Task<bool> InstallLiteLoaderAsync(string versionId, string mcVersion, string liteVersion, IProgress<LiteloaderInstaller.InstallProgress>? progress = null, CancellationToken cancellationToken = default) 参数 versionId string 生成的版本ID（如\"1.12.2-LiteLoader\"） mcVersion string Minecraft原版版本（如\"1.12.2\"） liteVersion string LiteLoader版本（如\"1.12.2-SNAPSHOT\"） progress IProgress<LiteloaderInstaller.InstallProgress> cancellationToken CancellationToken 返回 Task<bool> 是否安装成功"
+  },
+  "api/Qomicex_Core.Modules.Installer.LiteloaderInstaller.LiteLoaderRemoteVersion.html": {
+    "href": "api/Qomicex_Core.Modules.Installer.LiteloaderInstaller.LiteLoaderRemoteVersion.html",
+    "title": "LiteloaderInstaller.LiteLoaderRemoteVersion 类 | Qomicex Core Docs",
+    "summary": "LiteloaderInstaller.LiteLoaderRemoteVersion 类 命名空间 Qomicex_Core.Modules.Installer 程序集 Qomicex.Core.dll public class LiteloaderInstaller.LiteLoaderRemoteVersion 继承 object LiteloaderInstaller.LiteLoaderRemoteVersion 继承成员 object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() 构造函数 LiteLoaderRemoteVersion(string, string, List<string>, string, List<Library>) public LiteLoaderRemoteVersion(string gameVersion, string selfVersion, List<string> urls, string tweakClass, List<LiteloaderInstaller.Library> libraries) 参数 gameVersion string selfVersion string urls List<string> tweakClass string libraries List<LiteloaderInstaller.Library> 属性 GameVersion public string GameVersion { get; set; } 属性值 string Libraries public List<LiteloaderInstaller.Library> Libraries { get; set; } 属性值 List<LiteloaderInstaller.Library> SelfVersion public string SelfVersion { get; set; } 属性值 string TweakClass public string TweakClass { get; set; } 属性值 string Urls public List<string> Urls { get; set; } 属性值 List<string>"
+  },
+  "api/Qomicex_Core.Modules.Installer.LiteloaderInstaller.Version.html": {
+    "href": "api/Qomicex_Core.Modules.Installer.LiteloaderInstaller.Version.html",
+    "title": "LiteloaderInstaller.Version 类 | Qomicex Core Docs",
+    "summary": "LiteloaderInstaller.Version 类 命名空间 Qomicex_Core.Modules.Installer 程序集 Qomicex.Core.dll public class LiteloaderInstaller.Version 继承 object LiteloaderInstaller.Version 继承成员 object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() 属性 Id public string? Id { get; set; } 属性值 string 方法 SetJson(string) public void SetJson(string json) 参数 json string ToJson() public string ToJson() 返回 string"
+  },
+  "api/Qomicex_Core.Modules.Installer.LiteloaderInstaller.html": {
+    "href": "api/Qomicex_Core.Modules.Installer.LiteloaderInstaller.html",
+    "title": "LiteloaderInstaller 类 | Qomicex Core Docs",
+    "summary": "LiteloaderInstaller 类 命名空间 Qomicex_Core.Modules.Installer 程序集 Qomicex.Core.dll public class LiteloaderInstaller : InstallerBase 继承 object InstallerBase LiteloaderInstaller 继承成员 object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString()"
+  },
+  "api/Qomicex_Core.Modules.Installer.NeoForgeInstaller.html": {
+    "href": "api/Qomicex_Core.Modules.Installer.NeoForgeInstaller.html",
+    "title": "NeoForgeInstaller 类 | Qomicex Core Docs",
+    "summary": "NeoForgeInstaller 类 命名空间 Qomicex_Core.Modules.Installer 程序集 Qomicex.Core.dll public class NeoForgeInstaller : InstallerBase 继承 object InstallerBase NeoForgeInstaller 继承成员 object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() 构造函数 NeoForgeInstaller(string, string, int, string) public NeoForgeInstaller(string gameDir, string gameVersion, int downloadSource, string javaPath) 参数 gameDir string gameVersion string downloadSource int javaPath string 方法 GetMissNeoForgeLibraries(string, string) 获取缺失的NeoForge库文件列表 public List<Local.MissFileData> GetMissNeoForgeLibraries(string neoForgeInstallerPath, string versionId) 参数 neoForgeInstallerPath string NeoForge安装器路径 versionId string 生成的版本ID（如\"1.12.2-FeoForge\"） 返回 List<Local.MissFileData> 异常 Exception GetMissNeoForgeLibrariesAsync(string, string) 异步获取缺失的NeoForge库文件列表 public Task<List<Local.MissFileData>> GetMissNeoForgeLibrariesAsync(string neoForgeInstallerPath, string versionId) 参数 neoForgeInstallerPath string NeoForge安装器路径 versionId string 生成的版本ID（如\"1.12.2-FeoForge\"） 返回 Task<List<Local.MissFileData>> 异常 Exception InstallNeoForgeAsync(string, string, string?) 异步安装NeoForge,通过从NeoForge安装器提取文件自动安装NeoForge,安装前请确保原版游戏主Jar存在 public Task<bool> InstallNeoForgeAsync(string neoForgeInstallerPath, string versionId, string? inheritsFromJson) 参数 neoForgeInstallerPath string NeoForge安装器路径 versionId string 生成的版本ID（如\"1.12.2-LiteLoader\"） inheritsFromJson string 继承的版本Json内容 返回 Task<bool> 是否安装成功 SetVanillaJarPath(string) public void SetVanillaJarPath(string vMJarPath) 参数 vMJarPath string"
+  },
+  "api/Qomicex_Core.Modules.Installer.QuiltInstaller.Library.html": {
+    "href": "api/Qomicex_Core.Modules.Installer.QuiltInstaller.Library.html",
+    "title": "QuiltInstaller.Library 类 | Qomicex Core Docs",
+    "summary": "QuiltInstaller.Library 类 命名空间 Qomicex_Core.Modules.Installer 程序集 Qomicex.Core.dll public class QuiltInstaller.Library 继承 object QuiltInstaller.Library 继承成员 object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() 属性 Md5 public string? Md5 { get; set; } 属性值 string Name public string? Name { get; set; } 属性值 string Sha1 public string? Sha1 { get; set; } 属性值 string Sha256 public string? Sha256 { get; set; } 属性值 string Sha512 public string? Sha512 { get; set; } 属性值 string Size public long? Size { get; set; } 属性值 long? Url public string? Url { get; set; } 属性值 string"
+  },
+  "api/Qomicex_Core.Modules.Installer.QuiltInstaller.html": {
+    "href": "api/Qomicex_Core.Modules.Installer.QuiltInstaller.html",
+    "title": "QuiltInstaller 类 | Qomicex Core Docs",
+    "summary": "QuiltInstaller 类 命名空间 Qomicex_Core.Modules.Installer 程序集 Qomicex.Core.dll public class QuiltInstaller : InstallerBase 继承 object InstallerBase QuiltInstaller 继承成员 object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() 构造函数 QuiltInstaller(int, string) public QuiltInstaller(int downloadSource, string gameDir) 参数 downloadSource int gameDir string 方法 InstallQuiltAsync(string, string, string) 异步安装 Quilt Loader public Task<bool> InstallQuiltAsync(string versionId, string quiltVersion, string gameVersion) 参数 versionId string 生成的版本ID quiltVersion string 欲安装的Quilt版本 gameVersion string 原版游戏版本 返回 Task<bool> 是否成功 InstallQuiltWithMainJsonAsync(string, string, string, string) 异步安装 Quilt Loader 并使用自定义的 main.json 数据 public Task<bool> InstallQuiltWithMainJsonAsync(string versionId, string quiltVersion, string gameVersion, string mainJsonData) 参数 versionId string 生成的版本ID quiltVersion string 欲安装的Quilt版本 gameVersion string 原版游戏版本 mainJsonData string inheritsFrom版本Json内容 返回 Task<bool> 异常 Exception"
+  },
+  "api/Qomicex_Core.Modules.Installer.VanillaInstaller.html": {
+    "href": "api/Qomicex_Core.Modules.Installer.VanillaInstaller.html",
+    "title": "VanillaInstaller 类 | Qomicex Core Docs",
+    "summary": "VanillaInstaller 类 命名空间 Qomicex_Core.Modules.Installer 程序集 Qomicex.Core.dll public class VanillaInstaller : InstallerBase 继承 object InstallerBase VanillaInstaller 继承成员 object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() 构造函数 VanillaInstaller(string, int) public VanillaInstaller(string gameDir, int downloadSource) 参数 gameDir string downloadSource int 字段 downloadSource public readonly int downloadSource 字段值 int 方法 InstallVanillaAsync(string, string) 自动下载指定版本的原版Minecraft的Json到指定versionId目录下,并处理Json文件的id字段,需要补全文件 public Task<bool> InstallVanillaAsync(string mcVersion, string versionId) 参数 mcVersion string Minecraft版本号 versionId string 要安装的版本名(文件夹名和id键)例如1.12.2-awa 返回 Task<bool>"
+  },
+  "api/Qomicex_Core.Modules.Installer.html": {
+    "href": "api/Qomicex_Core.Modules.Installer.html",
+    "title": "Qomicex_Core.Modules.Installer 命名空间 | Qomicex Core Docs",
+    "summary": "Qomicex_Core.Modules.Installer 命名空间 类 FabricInstaller FabricInstaller.Library ForgeInstaller InstallerBase LiteloaderInstaller LiteloaderInstaller.Artifact LiteloaderInstaller.InstallProgress LiteloaderInstaller.Library LiteloaderInstaller.LibraryDownloadInfo LiteloaderInstaller.LiteLoaderInstaller LiteloaderInstaller.LiteLoaderRemoteVersion LiteloaderInstaller.Version NeoForgeInstaller QuiltInstaller QuiltInstaller.Library VanillaInstaller 枚举 InstallerBase.DownloadSource"
+  },
+  "api/Qomicex_Core.Modules.Launcher.Launcher.LauncherParam.html": {
+    "href": "api/Qomicex_Core.Modules.Launcher.Launcher.LauncherParam.html",
+    "title": "Launcher.LauncherParam 类 | Qomicex Core Docs",
+    "summary": "Launcher.LauncherParam 类 命名空间 Qomicex_Core.Modules.Launcher 程序集 Qomicex.Core.dll public class Launcher.LauncherParam : DataDetails.Launcher 继承 object DataDetails.Launcher Launcher.LauncherParam 继承成员 DataDetails.Launcher.Account DataDetails.Launcher.DevideVersion DataDetails.Launcher.AdditionalParam DataDetails.Launcher.Version DataDetails.Launcher.MaxMemory object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() 字段 FullScreen public bool FullScreen 字段值 bool GameDir public string GameDir 字段值 string Height public string Height 字段值 string Java public DataDetails.Java Java 字段值 DataDetails.Java LauncherName public string LauncherName 字段值 string Width public string Width 字段值 string"
+  },
+  "api/Qomicex_Core.Modules.Launcher.Launcher.html": {
+    "href": "api/Qomicex_Core.Modules.Launcher.Launcher.html",
+    "title": "Launcher 类 | Qomicex Core Docs",
+    "summary": "Launcher 类 命名空间 Qomicex_Core.Modules.Launcher 程序集 Qomicex.Core.dll public class Launcher 继承 object Launcher 继承成员 object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() 方法 KillGame() public void KillGame() Launch(LauncherParam) public bool Launch(Launcher.LauncherParam param) 参数 param Launcher.LauncherParam 返回 bool SelectParam(LauncherParam) public string SelectParam(Launcher.LauncherParam param) 参数 param Launcher.LauncherParam 返回 string UnzipNatives(string, string, string) public bool UnzipNatives(string jsonPath, string minecraftPath, string versionPath) 参数 jsonPath string minecraftPath string versionPath string 返回 bool UnzipNativesAsync(string, string, string) public Task<bool> UnzipNativesAsync(string jsonPath, string minecraftPath, string versionPath) 参数 jsonPath string minecraftPath string versionPath string 返回 Task<bool> 事件 OnCrashDetected public event Action<string>? OnCrashDetected 事件类型 Action<string> OnError public event Action<string>? OnError 事件类型 Action<string> OnExited public event Action<int>? OnExited 事件类型 Action<int> OnOutput public event Action<string>? OnOutput 事件类型 Action<string>"
+  },
+  "api/Qomicex_Core.Modules.Launcher.html": {
+    "href": "api/Qomicex_Core.Modules.Launcher.html",
+    "title": "Qomicex_Core.Modules.Launcher 命名空间 | Qomicex Core Docs",
+    "summary": "Qomicex_Core.Modules.Launcher 命名空间 类 Launcher Launcher.LauncherParam"
+  },
+  "api/Qomicex_Core.Modules.Sources.Expansion.CurseForge.CurseForgeBase.AuthorMeta.html": {
+    "href": "api/Qomicex_Core.Modules.Sources.Expansion.CurseForge.CurseForgeBase.AuthorMeta.html",
+    "title": "CurseForgeBase.AuthorMeta 类 | Qomicex Core Docs",
+    "summary": "CurseForgeBase.AuthorMeta 类 命名空间 Qomicex_Core.Modules.Sources.Expansion.CurseForge 程序集 Qomicex.Core.dll public class CurseForgeBase.AuthorMeta 继承 object CurseForgeBase.AuthorMeta 继承成员 object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() 属性 Id [JsonProperty(\"id\")] public string Id { get; set; } 属性值 string Name [JsonProperty(\"name\")] public string Name { get; set; } 属性值 string Url [JsonProperty(\"url\")] public string Url { get; set; } 属性值 string"
+  },
+  "api/Qomicex_Core.Modules.Sources.Expansion.CurseForge.CurseForgeBase.CategoryMeta.html": {
+    "href": "api/Qomicex_Core.Modules.Sources.Expansion.CurseForge.CurseForgeBase.CategoryMeta.html",
+    "title": "CurseForgeBase.CategoryMeta 类 | Qomicex Core Docs",
+    "summary": "CurseForgeBase.CategoryMeta 类 命名空间 Qomicex_Core.Modules.Sources.Expansion.CurseForge 程序集 Qomicex.Core.dll public class CurseForgeBase.CategoryMeta 继承 object CurseForgeBase.CategoryMeta 继承成员 object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() 属性 Id [JsonProperty(\"id\")] public int Id { get; set; } 属性值 int Name [JsonProperty(\"name\")] public string Name { get; set; } 属性值 string Slug [JsonProperty(\"slug\")] public string Slug { get; set; } 属性值 string Url [JsonProperty(\"url\")] public string Url { get; set; } 属性值 string"
+  },
+  "api/Qomicex_Core.Modules.Sources.Expansion.CurseForge.CurseForgeBase.CurseForgeDependenciesMeta.html": {
+    "href": "api/Qomicex_Core.Modules.Sources.Expansion.CurseForge.CurseForgeBase.CurseForgeDependenciesMeta.html",
+    "title": "CurseForgeBase.CurseForgeDependenciesMeta 类 | Qomicex Core Docs",
+    "summary": "CurseForgeBase.CurseForgeDependenciesMeta 类 命名空间 Qomicex_Core.Modules.Sources.Expansion.CurseForge 程序集 Qomicex.Core.dll public class CurseForgeBase.CurseForgeDependenciesMeta 继承 object CurseForgeBase.CurseForgeDependenciesMeta 继承成员 object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() 属性 Id [JsonProperty(\"modId\")] public int Id { get; set; } 属性值 int Type [JsonProperty(\"relationType\")] public int Type { get; set; } 属性值 int"
+  },
+  "api/Qomicex_Core.Modules.Sources.Expansion.CurseForge.CurseForgeBase.CurseForgeFilesMeta.html": {
+    "href": "api/Qomicex_Core.Modules.Sources.Expansion.CurseForge.CurseForgeBase.CurseForgeFilesMeta.html",
+    "title": "CurseForgeBase.CurseForgeFilesMeta 类 | Qomicex Core Docs",
+    "summary": "CurseForgeBase.CurseForgeFilesMeta 类 命名空间 Qomicex_Core.Modules.Sources.Expansion.CurseForge 程序集 Qomicex.Core.dll public class CurseForgeBase.CurseForgeFilesMeta 继承 object CurseForgeBase.CurseForgeFilesMeta 继承成员 object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() 属性 FileId [JsonProperty(\"fileId\")] public string FileId { get; set; } 属性值 string FileName [JsonProperty(\"fileName\")] public string FileName { get; set; } 属性值 string GameVersion [JsonProperty(\"gameVersion\")] public string GameVersion { get; set; } 属性值 string ModLoader [JsonProperty(\"modLoader\")] public int ModLoader { get; set; } 属性值 int releaseType [JsonProperty(\"releaseType\")] public int releaseType { get; set; } 属性值 int"
+  },
+  "api/Qomicex_Core.Modules.Sources.Expansion.CurseForge.CurseForgeBase.CurseForgeInfo.html": {
+    "href": "api/Qomicex_Core.Modules.Sources.Expansion.CurseForge.CurseForgeBase.CurseForgeInfo.html",
+    "title": "CurseForgeBase.CurseForgeInfo 类 | Qomicex Core Docs",
+    "summary": "CurseForgeBase.CurseForgeInfo 类 命名空间 Qomicex_Core.Modules.Sources.Expansion.CurseForge 程序集 Qomicex.Core.dll public class CurseForgeBase.CurseForgeInfo 继承 object CurseForgeBase.CurseForgeInfo 继承成员 object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() 属性 Authors [JsonProperty(\"authors\")] public List<CurseForgeBase.AuthorMeta> Authors { get; set; } 属性值 List<CurseForgeBase.AuthorMeta> Categories [JsonProperty(\"categories\")] public List<CurseForgeBase.CategoryMeta> Categories { get; set; } 属性值 List<CurseForgeBase.CategoryMeta> Dependencies public List<CurseForgeBase.CurseForgeDependenciesMeta> Dependencies { get; set; } 属性值 List<CurseForgeBase.CurseForgeDependenciesMeta> DownloadCount [JsonProperty(\"downloadCount\")] public int DownloadCount { get; set; } 属性值 int Files [JsonProperty(\"latestFilesIndexes\")] public List<CurseForgeBase.CurseForgeFilesMeta> Files { get; set; } 属性值 List<CurseForgeBase.CurseForgeFilesMeta> IconUrl [JsonProperty(\"iconUrl\")] public string IconUrl { get; set; } 属性值 string Id [JsonProperty(\"id\")] public string Id { get; set; } 属性值 string IsFeatured [JsonProperty(\"isFeatured\")] public bool IsFeatured { get; set; } 属性值 bool Name [JsonProperty(\"name\")] public string Name { get; set; } 属性值 string Screenshots [JsonProperty(\"screenshots\")] public List<CurseForgeBase.ScreenshotsMeta> Screenshots { get; set; } 属性值 List<CurseForgeBase.ScreenshotsMeta> Slug [JsonProperty(\"slug\")] public string Slug { get; set; } 属性值 string Status [JsonProperty(\"status\")] public int Status { get; set; } 属性值 int Summary [JsonProperty(\"summary\")] public string Summary { get; set; } 属性值 string"
+  },
+  "api/Qomicex_Core.Modules.Sources.Expansion.CurseForge.CurseForgeBase.CurseForgeSearchResult.html": {
+    "href": "api/Qomicex_Core.Modules.Sources.Expansion.CurseForge.CurseForgeBase.CurseForgeSearchResult.html",
+    "title": "CurseForgeBase.CurseForgeSearchResult 类 | Qomicex Core Docs",
+    "summary": "CurseForgeBase.CurseForgeSearchResult 类 命名空间 Qomicex_Core.Modules.Sources.Expansion.CurseForge 程序集 Qomicex.Core.dll public class CurseForgeBase.CurseForgeSearchResult 继承 object CurseForgeBase.CurseForgeSearchResult 继承成员 object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() 属性 Authors public List<CurseForgeBase.AuthorMeta> Authors { get; set; } 属性值 List<CurseForgeBase.AuthorMeta> Categories public List<CurseForgeBase.CategoryMeta> Categories { get; set; } 属性值 List<CurseForgeBase.CategoryMeta> DownloadCount public string DownloadCount { get; set; } 属性值 string GameVersion public string GameVersion { get; set; } 属性值 string IconUrl public string IconUrl { get; set; } 属性值 string Id public string Id { get; set; } 属性值 string IsFeatured public bool IsFeatured { get; set; } 属性值 bool Name public string Name { get; set; } 属性值 string Screenshots public List<CurseForgeBase.ScreenshotsMeta> Screenshots { get; set; } 属性值 List<CurseForgeBase.ScreenshotsMeta> Slug public string Slug { get; set; } 属性值 string Status public string Status { get; set; } 属性值 string Summary public string Summary { get; set; } 属性值 string"
+  },
+  "api/Qomicex_Core.Modules.Sources.Expansion.CurseForge.CurseForgeBase.ModLoaderType.html": {
+    "href": "api/Qomicex_Core.Modules.Sources.Expansion.CurseForge.CurseForgeBase.ModLoaderType.html",
+    "title": "CurseForgeBase.ModLoaderType 类 | Qomicex Core Docs",
+    "summary": "CurseForgeBase.ModLoaderType 类 命名空间 Qomicex_Core.Modules.Sources.Expansion.CurseForge 程序集 Qomicex.Core.dll public static class CurseForgeBase.ModLoaderType 继承 object CurseForgeBase.ModLoaderType 继承成员 object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() 字段 All public static readonly List<string> All 字段值 List<string> Any public const string Any = \"Any\" 字段值 string Fabric public const string Fabric = \"Fabric\" 字段值 string Forge public const string Forge = \"Forge\" 字段值 string LiteLoader public const string LiteLoader = \"LiteLoader\" 字段值 string NeoForge public const string NeoForge = \"NeoForge\" 字段值 string Quilt public const string Quilt = \"Quilt\" 字段值 string"
+  },
+  "api/Qomicex_Core.Modules.Sources.Expansion.CurseForge.CurseForgeBase.ScreenshotsMeta.html": {
+    "href": "api/Qomicex_Core.Modules.Sources.Expansion.CurseForge.CurseForgeBase.ScreenshotsMeta.html",
+    "title": "CurseForgeBase.ScreenshotsMeta 类 | Qomicex Core Docs",
+    "summary": "CurseForgeBase.ScreenshotsMeta 类 命名空间 Qomicex_Core.Modules.Sources.Expansion.CurseForge 程序集 Qomicex.Core.dll public class CurseForgeBase.ScreenshotsMeta 继承 object CurseForgeBase.ScreenshotsMeta 继承成员 object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() 属性 Description [JsonProperty(\"description\")] public string Description { get; set; } 属性值 string Id [JsonProperty(\"id\")] public int Id { get; set; } 属性值 int ModId [JsonProperty(\"modId\")] public int ModId { get; set; } 属性值 int ThumbnailUrl [JsonProperty(\"thumbnailUrl\")] public string ThumbnailUrl { get; set; } 属性值 string Title [JsonProperty(\"title\")] public string Title { get; set; } 属性值 string Url [JsonProperty(\"url\")] public string Url { get; set; } 属性值 string"
+  },
+  "api/Qomicex_Core.Modules.Sources.Expansion.CurseForge.CurseForgeBase.SortField.html": {
+    "href": "api/Qomicex_Core.Modules.Sources.Expansion.CurseForge.CurseForgeBase.SortField.html",
+    "title": "CurseForgeBase.SortField 枚举 | Qomicex Core Docs",
+    "summary": "CurseForgeBase.SortField 枚举 命名空间 Qomicex_Core.Modules.Sources.Expansion.CurseForge 程序集 Qomicex.Core.dll public enum CurseForgeBase.SortField 字段 Author = 5 Category = 7 EarlyAccess = 9 Featured = 1 FeaturedReleased = 10 GameVersion = 8 LastUpdated = 3 Name = 4 Popularity = 2 Rating = 12 ReleasedDate = 11 TotalDownloads = 6"
+  },
+  "api/Qomicex_Core.Modules.Sources.Expansion.CurseForge.CurseForgeBase.html": {
+    "href": "api/Qomicex_Core.Modules.Sources.Expansion.CurseForge.CurseForgeBase.html",
+    "title": "CurseForgeBase 类 | Qomicex Core Docs",
+    "summary": "CurseForgeBase 类 命名空间 Qomicex_Core.Modules.Sources.Expansion.CurseForge 程序集 Qomicex.Core.dll public class CurseForgeBase 继承 object CurseForgeBase Derived DataPacks Modpacks Mods ResourcePacks Shaders Worlds 继承成员 object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() 构造函数 CurseForgeBase(string, string, string) public CurseForgeBase(string ApiKey, string SearchUrl, string ModURL) 参数 ApiKey string SearchUrl string ModURL string 方法 GetDownloadUrl(string, string) 获取指定资源的下载链接 public string GetDownloadUrl(string Id, string FileId) 参数 Id string FileId string 返回 string 异常 ArgumentNullException Exception GetDownloadUrlAsync(string, string) 异步获取指定资源的下载链接 public Task<string> GetDownloadUrlAsync(string Id, string FileId) 参数 Id string FileId string 返回 Task<string> 异常 ArgumentNullException Exception"
+  },
+  "api/Qomicex_Core.Modules.Sources.Expansion.CurseForge.DataPacks.Category.html": {
+    "href": "api/Qomicex_Core.Modules.Sources.Expansion.CurseForge.DataPacks.Category.html",
+    "title": "DataPacks.Category 枚举 | Qomicex Core Docs",
+    "summary": "DataPacks.Category 枚举 命名空间 Qomicex_Core.Modules.Sources.Expansion.CurseForge 程序集 Qomicex.Core.dll public enum DataPacks.Category 字段 Adventure = 6948 Fantasy = 6949 Library = 6950 Magic = 6952 Miscellaneous = 6947 ModSupport = 6946 Tech = 6951 Utility = 6953"
+  },
+  "api/Qomicex_Core.Modules.Sources.Expansion.CurseForge.DataPacks.html": {
+    "href": "api/Qomicex_Core.Modules.Sources.Expansion.CurseForge.DataPacks.html",
+    "title": "DataPacks 类 | Qomicex Core Docs",
+    "summary": "DataPacks 类 命名空间 Qomicex_Core.Modules.Sources.Expansion.CurseForge 程序集 Qomicex.Core.dll public class DataPacks : CurseForgeBase 继承 object CurseForgeBase DataPacks 继承成员 CurseForgeBase.GetDownloadUrl(string, string) CurseForgeBase.GetDownloadUrlAsync(string, string) object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() 构造函数 DataPacks(string) public DataPacks(string ApiKey) 参数 ApiKey string 方法 GetModInfoAsync(string) 异步获取指定DataPack的详细信息 public Task<CurseForgeBase.CurseForgeInfo> GetModInfoAsync(string Id) 参数 Id string ModId 返回 Task<CurseForgeBase.CurseForgeInfo> DataPack信息 异常 ArgumentNullException Exception GetRecommendDataPacks(string?[], int?[], int?, int?, int?) 获取推荐的DataPack列表 public Task<List<CurseForgeBase.CurseForgeSearchResult>> GetRecommendDataPacks(string?[] GameVersions, int?[] Categories, int? SortField = 0, int? Page = 1, int? PageSize = 25) 参数 GameVersions string[] 游戏版本 Categories int?[] 分类 SortField int? 排序方式 Page int? 页数 PageSize int? 页面大小 返回 Task<List<CurseForgeBase.CurseForgeSearchResult>> 结果 SearchAsync(string, string?[], int?[], int?, int?, int?) 异步搜索CurseForge上的DataPack public Task<List<CurseForgeBase.CurseForgeSearchResult>> SearchAsync(string SearchFilter, string?[] GameVersions, int?[] Categories, int? SortField = 0, int? Page = 1, int? PageSize = 25) 参数 SearchFilter string 搜索关键词 GameVersions string[] 游戏版本 Categories int?[] 分类标签 SortField int? 排序方式 Page int? 页数 PageSize int? 单页搜索结果条目数 返回 Task<List<CurseForgeBase.CurseForgeSearchResult>> 异常 ArgumentOutOfRangeException Exception"
+  },
+  "api/Qomicex_Core.Modules.Sources.Expansion.CurseForge.Modpacks.Category.html": {
+    "href": "api/Qomicex_Core.Modules.Sources.Expansion.CurseForge.Modpacks.Category.html",
+    "title": "Modpacks.Category 枚举 | Qomicex Core Docs",
+    "summary": "Modpacks.Category 枚举 命名空间 Qomicex_Core.Modules.Sources.Expansion.CurseForge 程序集 Qomicex.Core.dll public enum Modpacks.Category 字段 AdventureAndRpg = 4475 CombatOrPvp = 4483 Exploration = 4476 ExtraLarge = 4482 FtbOfficialPack = 4487 Hardcore = 4479 Horror = 7418 Magic = 4473 MapBased = 4480 MiniGame = 4477 Multiplayer = 4484 Quests = 4478 Sci_fi = 4474 Skyblock = 4736 SmallOrLight = 4481 Tech = 4472 VanillaAdd = 5128"
+  },
+  "api/Qomicex_Core.Modules.Sources.Expansion.CurseForge.Modpacks.html": {
+    "href": "api/Qomicex_Core.Modules.Sources.Expansion.CurseForge.Modpacks.html",
+    "title": "Modpacks 类 | Qomicex Core Docs",
+    "summary": "Modpacks 类 命名空间 Qomicex_Core.Modules.Sources.Expansion.CurseForge 程序集 Qomicex.Core.dll public class Modpacks : CurseForgeBase 继承 object CurseForgeBase Modpacks 继承成员 CurseForgeBase.GetDownloadUrl(string, string) CurseForgeBase.GetDownloadUrlAsync(string, string) object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() 构造函数 Modpacks(string) public Modpacks(string ApiKey) 参数 ApiKey string 方法 GetModInfoAsync(string) 异步获取指定Modpack的详细信息 public Task<CurseForgeBase.CurseForgeInfo> GetModInfoAsync(string ModpackId) 参数 ModpackId string ModId 返回 Task<CurseForgeBase.CurseForgeInfo> Mod信息 异常 ArgumentNullException Exception GetRecommendModpacks(string?[], int?[], string[]?, int?, int?, int?) 获取推荐的Modpack列表 public Task<List<CurseForgeBase.CurseForgeSearchResult>> GetRecommendModpacks(string?[] GameVersions, int?[] Categories, string[]? ModLoaderTypes, int? SortField = 0, int? Page = 1, int? PageSize = 25) 参数 GameVersions string[] 游戏版本 Categories int?[] 分类 ModLoaderTypes string[] 模组加载器 SortField int? 排序方式 Page int? 页数 PageSize int? 页面大小 返回 Task<List<CurseForgeBase.CurseForgeSearchResult>> 结果 SearchAsync(string, string?[], int?[], string[]?, int?, int?, int?) 异步搜索CurseForge上的Modpack public Task<List<CurseForgeBase.CurseForgeSearchResult>> SearchAsync(string SearchFilter, string?[] GameVersions, int?[] Categories, string[]? ModLoaderTypes, int? SortField = 0, int? Page = 1, int? PageSize = 25) 参数 SearchFilter string 搜索关键词 GameVersions string[] 游戏版本 Categories int?[] 分类标签 ModLoaderTypes string[] ModLoader类型 SortField int? 排序方式 Page int? 页数 PageSize int? 单页搜索结果条目数 返回 Task<List<CurseForgeBase.CurseForgeSearchResult>> 异常 ArgumentOutOfRangeException Exception"
+  },
+  "api/Qomicex_Core.Modules.Sources.Expansion.CurseForge.Mods.AuthorMeta.html": {
+    "href": "api/Qomicex_Core.Modules.Sources.Expansion.CurseForge.Mods.AuthorMeta.html",
+    "title": "Mods.AuthorMeta 类 | Qomicex Core Docs",
+    "summary": "Mods.AuthorMeta 类 命名空间 Qomicex_Core.Modules.Sources.Expansion.CurseForge 程序集 Qomicex.Core.dll public class Mods.AuthorMeta 继承 object Mods.AuthorMeta 继承成员 object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() 属性 Id [JsonProperty(\"id\")] public string Id { get; set; } 属性值 string Name [JsonProperty(\"name\")] public string Name { get; set; } 属性值 string Url [JsonProperty(\"url\")] public string Url { get; set; } 属性值 string"
+  },
+  "api/Qomicex_Core.Modules.Sources.Expansion.CurseForge.Mods.Category.html": {
+    "href": "api/Qomicex_Core.Modules.Sources.Expansion.CurseForge.Mods.Category.html",
+    "title": "Mods.Category 枚举 | Qomicex Core Docs",
+    "summary": "Mods.Category 枚举 命名空间 Qomicex_Core.Modules.Sources.Expansion.CurseForge 程序集 Qomicex.Core.dll public enum Mods.Category 字段 Addons = 426 AdventureAndRpg = 422 ApiAndLibrary = 421 AppliedEnergistics2 = 4545 ArmorAndToolsAndAndWeapons = 434 Automation = 4843 Biomes = 407 BloodMagic = 4485 BugFixes = 6821 Buildcraft = 432 Cosmetic = 424 CraftTweaker = 4773 Create = 6484 Dimensions = 410 Education = 5299 Energy = 417 EnergyAndFluidAndAndItemTransport = 415 Farming = 416 Food = 436 Forestry = 433 Galacticraft = 5232 Genetics = 418 IndustrialCraft = 429 IntegratedDynamics = 6954 Kubejs = 5314 Magic = 419 MapAndInformation = 423 Mcreator = 4906 Miscellaneous = 425 Mobs = 411 OresAndResources = 408 Performance = 6814 PlayerTransport = 414 Processing = 413 Redstone = 4558 ServerUtility = 435 Skyblock = 6145 Storage = 420 Structures = 409 Technology = 412 ThaumCraft = 430 ThermalExpansion = 427 TinkersConstruct = 428 TwilightForest = 7669 TwitchIntegration = 4671 UtilityAndQol = 5191 WorldGen = 406"
+  },
+  "api/Qomicex_Core.Modules.Sources.Expansion.CurseForge.Mods.CategoryMeta.html": {
+    "href": "api/Qomicex_Core.Modules.Sources.Expansion.CurseForge.Mods.CategoryMeta.html",
+    "title": "Mods.CategoryMeta 类 | Qomicex Core Docs",
+    "summary": "Mods.CategoryMeta 类 命名空间 Qomicex_Core.Modules.Sources.Expansion.CurseForge 程序集 Qomicex.Core.dll public class Mods.CategoryMeta 继承 object Mods.CategoryMeta 继承成员 object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() 属性 Id [JsonProperty(\"id\")] public int Id { get; set; } 属性值 int Name [JsonProperty(\"name\")] public string Name { get; set; } 属性值 string Slug [JsonProperty(\"slug\")] public string Slug { get; set; } 属性值 string Url [JsonProperty(\"url\")] public string Url { get; set; } 属性值 string"
+  },
+  "api/Qomicex_Core.Modules.Sources.Expansion.CurseForge.Mods.ModDependenciesMeta.html": {
+    "href": "api/Qomicex_Core.Modules.Sources.Expansion.CurseForge.Mods.ModDependenciesMeta.html",
+    "title": "Mods.ModDependenciesMeta 类 | Qomicex Core Docs",
+    "summary": "Mods.ModDependenciesMeta 类 命名空间 Qomicex_Core.Modules.Sources.Expansion.CurseForge 程序集 Qomicex.Core.dll public class Mods.ModDependenciesMeta 继承 object Mods.ModDependenciesMeta 继承成员 object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() 属性 Id [JsonProperty(\"modId\")] public int Id { get; set; } 属性值 int Type [JsonProperty(\"relationType\")] public int Type { get; set; } 属性值 int"
+  },
+  "api/Qomicex_Core.Modules.Sources.Expansion.CurseForge.Mods.ModFilesMeta.html": {
+    "href": "api/Qomicex_Core.Modules.Sources.Expansion.CurseForge.Mods.ModFilesMeta.html",
+    "title": "Mods.ModFilesMeta 类 | Qomicex Core Docs",
+    "summary": "Mods.ModFilesMeta 类 命名空间 Qomicex_Core.Modules.Sources.Expansion.CurseForge 程序集 Qomicex.Core.dll public class Mods.ModFilesMeta 继承 object Mods.ModFilesMeta 继承成员 object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() 属性 FileId [JsonProperty(\"fileId\")] public string FileId { get; set; } 属性值 string FileName [JsonProperty(\"fileName\")] public string FileName { get; set; } 属性值 string GameVersion [JsonProperty(\"gameVersion\")] public string GameVersion { get; set; } 属性值 string ModLoader [JsonProperty(\"modLoader\")] public int ModLoader { get; set; } 属性值 int releaseType [JsonProperty(\"releaseType\")] public int releaseType { get; set; } 属性值 int"
+  },
+  "api/Qomicex_Core.Modules.Sources.Expansion.CurseForge.Mods.ModInfo.html": {
+    "href": "api/Qomicex_Core.Modules.Sources.Expansion.CurseForge.Mods.ModInfo.html",
+    "title": "Mods.ModInfo 类 | Qomicex Core Docs",
+    "summary": "Mods.ModInfo 类 命名空间 Qomicex_Core.Modules.Sources.Expansion.CurseForge 程序集 Qomicex.Core.dll public class Mods.ModInfo 继承 object Mods.ModInfo 继承成员 object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() 属性 Authors [JsonProperty(\"authors\")] public List<Mods.AuthorMeta> Authors { get; set; } 属性值 List<Mods.AuthorMeta> Categories [JsonProperty(\"categories\")] public List<Mods.CategoryMeta> Categories { get; set; } 属性值 List<Mods.CategoryMeta> Dependencies public List<Mods.ModDependenciesMeta> Dependencies { get; set; } 属性值 List<Mods.ModDependenciesMeta> DownloadCount [JsonProperty(\"downloadCount\")] public int DownloadCount { get; set; } 属性值 int Files [JsonProperty(\"latestFilesIndexes\")] public List<Mods.ModFilesMeta> Files { get; set; } 属性值 List<Mods.ModFilesMeta> IconUrl [JsonProperty(\"iconUrl\")] public string IconUrl { get; set; } 属性值 string Id [JsonProperty(\"id\")] public string Id { get; set; } 属性值 string IsFeatured [JsonProperty(\"isFeatured\")] public bool IsFeatured { get; set; } 属性值 bool Name [JsonProperty(\"name\")] public string Name { get; set; } 属性值 string Screenshots [JsonProperty(\"screenshots\")] public List<Mods.ScreenshotsMeta> Screenshots { get; set; } 属性值 List<Mods.ScreenshotsMeta> Slug [JsonProperty(\"slug\")] public string Slug { get; set; } 属性值 string Status [JsonProperty(\"status\")] public int Status { get; set; } 属性值 int Summary [JsonProperty(\"summary\")] public string Summary { get; set; } 属性值 string"
+  },
+  "api/Qomicex_Core.Modules.Sources.Expansion.CurseForge.Mods.ModLoaderType.html": {
+    "href": "api/Qomicex_Core.Modules.Sources.Expansion.CurseForge.Mods.ModLoaderType.html",
+    "title": "Mods.ModLoaderType 类 | Qomicex Core Docs",
+    "summary": "Mods.ModLoaderType 类 命名空间 Qomicex_Core.Modules.Sources.Expansion.CurseForge 程序集 Qomicex.Core.dll public static class Mods.ModLoaderType 继承 object Mods.ModLoaderType 继承成员 object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() 字段 All public static readonly List<string> All 字段值 List<string> Any public const string Any = \"Any\" 字段值 string Fabric public const string Fabric = \"Fabric\" 字段值 string Forge public const string Forge = \"Forge\" 字段值 string LiteLoader public const string LiteLoader = \"LiteLoader\" 字段值 string NeoForge public const string NeoForge = \"NeoForge\" 字段值 string Quilt public const string Quilt = \"Quilt\" 字段值 string"
+  },
+  "api/Qomicex_Core.Modules.Sources.Expansion.CurseForge.Mods.ModSearchResult.html": {
+    "href": "api/Qomicex_Core.Modules.Sources.Expansion.CurseForge.Mods.ModSearchResult.html",
+    "title": "Mods.ModSearchResult 类 | Qomicex Core Docs",
+    "summary": "Mods.ModSearchResult 类 命名空间 Qomicex_Core.Modules.Sources.Expansion.CurseForge 程序集 Qomicex.Core.dll public class Mods.ModSearchResult 继承 object Mods.ModSearchResult 继承成员 object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() 属性 Authors public List<Mods.AuthorMeta> Authors { get; set; } 属性值 List<Mods.AuthorMeta> Categories public List<Mods.CategoryMeta> Categories { get; set; } 属性值 List<Mods.CategoryMeta> DownloadCount public string DownloadCount { get; set; } 属性值 string GameVersion public string GameVersion { get; set; } 属性值 string IconUrl public string IconUrl { get; set; } 属性值 string Id public string Id { get; set; } 属性值 string IsFeatured public bool IsFeatured { get; set; } 属性值 bool Name public string Name { get; set; } 属性值 string Screenshots public List<Mods.ScreenshotsMeta> Screenshots { get; set; } 属性值 List<Mods.ScreenshotsMeta> Slug public string Slug { get; set; } 属性值 string Status public string Status { get; set; } 属性值 string Summary public string Summary { get; set; } 属性值 string"
+  },
+  "api/Qomicex_Core.Modules.Sources.Expansion.CurseForge.Mods.ScreenshotsMeta.html": {
+    "href": "api/Qomicex_Core.Modules.Sources.Expansion.CurseForge.Mods.ScreenshotsMeta.html",
+    "title": "Mods.ScreenshotsMeta 类 | Qomicex Core Docs",
+    "summary": "Mods.ScreenshotsMeta 类 命名空间 Qomicex_Core.Modules.Sources.Expansion.CurseForge 程序集 Qomicex.Core.dll public class Mods.ScreenshotsMeta 继承 object Mods.ScreenshotsMeta 继承成员 object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() 属性 Description [JsonProperty(\"description\")] public string Description { get; set; } 属性值 string Id [JsonProperty(\"id\")] public int Id { get; set; } 属性值 int ModId [JsonProperty(\"modId\")] public int ModId { get; set; } 属性值 int ThumbnailUrl [JsonProperty(\"thumbnailUrl\")] public string ThumbnailUrl { get; set; } 属性值 string Title [JsonProperty(\"title\")] public string Title { get; set; } 属性值 string Url [JsonProperty(\"url\")] public string Url { get; set; } 属性值 string"
+  },
+  "api/Qomicex_Core.Modules.Sources.Expansion.CurseForge.Mods.SortField.html": {
+    "href": "api/Qomicex_Core.Modules.Sources.Expansion.CurseForge.Mods.SortField.html",
+    "title": "Mods.SortField 枚举 | Qomicex Core Docs",
+    "summary": "Mods.SortField 枚举 命名空间 Qomicex_Core.Modules.Sources.Expansion.CurseForge 程序集 Qomicex.Core.dll public enum Mods.SortField 字段 Author = 5 Category = 7 EarlyAccess = 9 Featured = 1 FeaturedReleased = 10 GameVersion = 8 LastUpdated = 3 Name = 4 Popularity = 2 Rating = 12 ReleasedDate = 11 TotalDownloads = 6"
+  },
+  "api/Qomicex_Core.Modules.Sources.Expansion.CurseForge.Mods.html": {
+    "href": "api/Qomicex_Core.Modules.Sources.Expansion.CurseForge.Mods.html",
+    "title": "Mods 类 | Qomicex Core Docs",
+    "summary": "Mods 类 命名空间 Qomicex_Core.Modules.Sources.Expansion.CurseForge 程序集 Qomicex.Core.dll public class Mods : CurseForgeBase 继承 object CurseForgeBase Mods 继承成员 CurseForgeBase.GetDownloadUrl(string, string) CurseForgeBase.GetDownloadUrlAsync(string, string) object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() 构造函数 Mods(string) public Mods(string ApiKey) 参数 ApiKey string 方法 GetModInfoAsync(string) 异步获取指定Mod的详细信息 public Task<CurseForgeBase.CurseForgeInfo> GetModInfoAsync(string ModId) 参数 ModId string ModId 返回 Task<CurseForgeBase.CurseForgeInfo> Mod信息 异常 ArgumentNullException Exception GetRecommendMods(string?[], int?[], string[]?, int?, int?, int?) 获取推荐的Mod列表 public Task<List<CurseForgeBase.CurseForgeSearchResult>> GetRecommendMods(string?[] GameVersions, int?[] Categories, string[]? ModLoaderTypes, int? SortField = 0, int? Page = 1, int? PageSize = 25) 参数 GameVersions string[] 游戏版本 Categories int?[] 分类 ModLoaderTypes string[] 模组加载器 SortField int? 排序方式 Page int? 页数 PageSize int? 页面大小 返回 Task<List<CurseForgeBase.CurseForgeSearchResult>> 结果 SearchAsync(string, string?[], int?[], string[]?, int?, int?, int?) 异步搜索CurseForge上的Mod public Task<List<CurseForgeBase.CurseForgeSearchResult>> SearchAsync(string SearchFilter, string?[] GameVersions, int?[] Categories, string[]? ModLoaderTypes, int? SortField = 0, int? Page = 1, int? PageSize = 25) 参数 SearchFilter string 搜索关键词 GameVersions string[] 游戏版本 Categories int?[] 分类标签 ModLoaderTypes string[] ModLoader类型 SortField int? 排序方式 Page int? 页数 PageSize int? 单页搜索结果条目数 返回 Task<List<CurseForgeBase.CurseForgeSearchResult>> 异常 ArgumentOutOfRangeException Exception"
+  },
+  "api/Qomicex_Core.Modules.Sources.Expansion.CurseForge.ResourcePacks.Category.html": {
+    "href": "api/Qomicex_Core.Modules.Sources.Expansion.CurseForge.ResourcePacks.Category.html",
+    "title": "ResourcePacks.Category 枚举 | Qomicex Core Docs",
+    "summary": "ResourcePacks.Category 枚举 命名空间 Qomicex_Core.Modules.Sources.Expansion.CurseForge 程序集 Qomicex.Core.dll public enum ResourcePacks.Category 字段 Animated = 404 DataPacks = 5193 FontPacks = 5244 Medieval = 402 Miscellaneous = 405 ModSupport = 4465 Modern = 401 PhotoRealistic = 400 Steampunk = 399 Traditional = 403 x128 = 396 x16 = 393 x256 = 397 x32 = 394 x512AndHigher = 398 x64 = 395"
+  },
+  "api/Qomicex_Core.Modules.Sources.Expansion.CurseForge.ResourcePacks.html": {
+    "href": "api/Qomicex_Core.Modules.Sources.Expansion.CurseForge.ResourcePacks.html",
+    "title": "ResourcePacks 类 | Qomicex Core Docs",
+    "summary": "ResourcePacks 类 命名空间 Qomicex_Core.Modules.Sources.Expansion.CurseForge 程序集 Qomicex.Core.dll public class ResourcePacks : CurseForgeBase 继承 object CurseForgeBase ResourcePacks 继承成员 CurseForgeBase.GetDownloadUrl(string, string) CurseForgeBase.GetDownloadUrlAsync(string, string) object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() 构造函数 ResourcePacks(string) public ResourcePacks(string ApiKey) 参数 ApiKey string 方法 GetModInfoAsync(string) 异步获取指定ResourcePack的详细信息 public Task<CurseForgeBase.CurseForgeInfo> GetModInfoAsync(string Id) 参数 Id string ResourcePackId 返回 Task<CurseForgeBase.CurseForgeInfo> ResourcePack信息 异常 ArgumentNullException Exception GetRecommendResourcePacks(string?[], int?[], int?, int?, int?) 获取推荐的ResourcePacks列表 public Task<List<CurseForgeBase.CurseForgeSearchResult>> GetRecommendResourcePacks(string?[] GameVersions, int?[] Categories, int? SortField = 0, int? Page = 1, int? PageSize = 25) 参数 GameVersions string[] 游戏版本 Categories int?[] 分类 SortField int? 排序方式 Page int? 页数 PageSize int? 页面大小 返回 Task<List<CurseForgeBase.CurseForgeSearchResult>> 结果 SearchAsync(string, string?[], int?[], int?, int?, int?) 异步搜索CurseForge上的ResourcePacks public Task<List<CurseForgeBase.CurseForgeSearchResult>> SearchAsync(string SearchFilter, string?[] GameVersions, int?[] Categories, int? SortField = 0, int? Page = 1, int? PageSize = 25) 参数 SearchFilter string 搜索关键词 GameVersions string[] 游戏版本 Categories int?[] 分类标签 SortField int? 排序方式 Page int? 页数 PageSize int? 单页搜索结果条目数 返回 Task<List<CurseForgeBase.CurseForgeSearchResult>> 异常 ArgumentOutOfRangeException Exception"
+  },
+  "api/Qomicex_Core.Modules.Sources.Expansion.CurseForge.Shaders.Category.html": {
+    "href": "api/Qomicex_Core.Modules.Sources.Expansion.CurseForge.Shaders.Category.html",
+    "title": "Shaders.Category 枚举 | Qomicex Core Docs",
+    "summary": "Shaders.Category 枚举 命名空间 Qomicex_Core.Modules.Sources.Expansion.CurseForge 程序集 Qomicex.Core.dll public enum Shaders.Category 字段 Fantasy = 6554 Realistic = 6553 Vanilla = 6555"
+  },
+  "api/Qomicex_Core.Modules.Sources.Expansion.CurseForge.Shaders.html": {
+    "href": "api/Qomicex_Core.Modules.Sources.Expansion.CurseForge.Shaders.html",
+    "title": "Shaders 类 | Qomicex Core Docs",
+    "summary": "Shaders 类 命名空间 Qomicex_Core.Modules.Sources.Expansion.CurseForge 程序集 Qomicex.Core.dll public class Shaders : CurseForgeBase 继承 object CurseForgeBase Shaders 继承成员 CurseForgeBase.GetDownloadUrl(string, string) CurseForgeBase.GetDownloadUrlAsync(string, string) object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() 构造函数 Shaders(string) public Shaders(string ApiKey) 参数 ApiKey string 方法 GetModInfoAsync(string) 异步获取指定Shaders的详细信息 public Task<CurseForgeBase.CurseForgeInfo> GetModInfoAsync(string Id) 参数 Id string ModId 返回 Task<CurseForgeBase.CurseForgeInfo> Shaders信息 异常 ArgumentNullException Exception GetRecommendShaders(string?[], int?[], int?, int?, int?) 获取推荐的Shaders列表 public Task<List<CurseForgeBase.CurseForgeSearchResult>> GetRecommendShaders(string?[] GameVersions, int?[] Categories, int? SortField = 0, int? Page = 1, int? PageSize = 25) 参数 GameVersions string[] 游戏版本 Categories int?[] 分类 SortField int? 排序方式 Page int? 页数 PageSize int? 页面大小 返回 Task<List<CurseForgeBase.CurseForgeSearchResult>> 结果 SearchAsync(string, string?[], int?[], int?, int?, int?) 异步搜索CurseForge上的Shaders public Task<List<CurseForgeBase.CurseForgeSearchResult>> SearchAsync(string SearchFilter, string?[] GameVersions, int?[] Categories, int? SortField = 0, int? Page = 1, int? PageSize = 25) 参数 SearchFilter string 搜索关键词 GameVersions string[] 游戏版本 Categories int?[] 分类标签 SortField int? 排序方式 Page int? 页数 PageSize int? 单页搜索结果条目数 返回 Task<List<CurseForgeBase.CurseForgeSearchResult>> 异常 ArgumentOutOfRangeException Exception"
+  },
+  "api/Qomicex_Core.Modules.Sources.Expansion.CurseForge.html": {
+    "href": "api/Qomicex_Core.Modules.Sources.Expansion.CurseForge.html",
+    "title": "Qomicex_Core.Modules.Sources.Expansion.CurseForge 命名空间 | Qomicex Core Docs",
+    "summary": "Qomicex_Core.Modules.Sources.Expansion.CurseForge 命名空间 类 CurseForgeBase CurseForgeBase.AuthorMeta CurseForgeBase.CategoryMeta CurseForgeBase.CurseForgeDependenciesMeta CurseForgeBase.CurseForgeFilesMeta CurseForgeBase.CurseForgeInfo CurseForgeBase.CurseForgeSearchResult CurseForgeBase.ModLoaderType CurseForgeBase.ScreenshotsMeta DataPacks Modpacks Mods ResourcePacks Shaders 枚举 CurseForgeBase.SortField DataPacks.Category Modpacks.Category Mods.Category ResourcePacks.Category Shaders.Category"
+  },
+  "api/Qomicex_Core.Modules.Sources.Expansion.Modrinth.DataPacks.html": {
+    "href": "api/Qomicex_Core.Modules.Sources.Expansion.Modrinth.DataPacks.html",
+    "title": "DataPacks 类 | Qomicex Core Docs",
+    "summary": "DataPacks 类 命名空间 Qomicex_Core.Modules.Sources.Expansion.Modrinth 程序集 Qomicex.Core.dll public class DataPacks 继承 object DataPacks 继承成员 object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString()"
+  },
+  "api/Qomicex_Core.Modules.Sources.Expansion.Modrinth.Modpacks.html": {
+    "href": "api/Qomicex_Core.Modules.Sources.Expansion.Modrinth.Modpacks.html",
+    "title": "Modpacks 类 | Qomicex Core Docs",
+    "summary": "Modpacks 类 命名空间 Qomicex_Core.Modules.Sources.Expansion.Modrinth 程序集 Qomicex.Core.dll public class Modpacks : ModrinthBase 继承 object ModrinthBase Modpacks 继承成员 ModrinthBase.GetCategoriesAsync() ModrinthBase.GetLoadersAsync() ModrinthBase.GetProjectTypesAsync() object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() 方法 GetProjectInfoAsync(string) 异步获取Modrinth上指定项目ID的详细信息 public Task<ModrinthBase.ProjectInfo> GetProjectInfoAsync(string ProjectId) 参数 ProjectId string 项目ID 返回 Task<ModrinthBase.ProjectInfo> 项目信息 异常 ArgumentException Exception GetProjectVersionInfoAsync(string) 异步获取Modrinth上指定项目ID的版本信息 public Task<List<ModrinthBase.ProjectVersionInfo>> GetProjectVersionInfoAsync(string ProjectId) 参数 ProjectId string 项目ID 返回 Task<List<ModrinthBase.ProjectVersionInfo>> 项目版本信息 异常 ArgumentException Exception GetVersionInfoAsync(string) 异步获取Modrinth上指定版本ID的详细版本信息 public Task<ModrinthBase.VersionInfo> GetVersionInfoAsync(string VersionId) 参数 VersionId string 版本ID 返回 Task<ModrinthBase.VersionInfo> 版本信息 异常 ArgumentException Exception SearchAsync(string, string?, string[]?, string[]?, string, int, int) 异步搜索Modrinth上的资源包 public Task<ModrinthBase.SearchResult> SearchAsync(string SearchFilter, string? GameVersion, string[]? Categories, string[]? Loaders = null, string Index = \"relevance\", int Page = 0, int PageSize = 20) 参数 SearchFilter string 搜索关键词 GameVersion string Minecraft版本 Categories string[] 分类标签 Loaders string[] 模组加载器类型 Index string 排序方式，默认按相关性排序 Page int 页数，最小为0，默认0 PageSize int 每页大小，最多100个，默认20 返回 Task<ModrinthBase.SearchResult> 搜索结果 异常 ArgumentException"
+  },
+  "api/Qomicex_Core.Modules.Sources.Expansion.Modrinth.ModrinthBase.DependenciesInfo.html": {
+    "href": "api/Qomicex_Core.Modules.Sources.Expansion.Modrinth.ModrinthBase.DependenciesInfo.html",
+    "title": "ModrinthBase.DependenciesInfo 类 | Qomicex Core Docs",
+    "summary": "ModrinthBase.DependenciesInfo 类 命名空间 Qomicex_Core.Modules.Sources.Expansion.Modrinth 程序集 Qomicex.Core.dll public class ModrinthBase.DependenciesInfo 继承 object ModrinthBase.DependenciesInfo 继承成员 object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() 属性 DependencyType [JsonProperty(\"dependency_type\")] public string DependencyType { get; set; } 属性值 string FileName [JsonProperty(\"file_name\")] public string FileName { get; set; } 属性值 string ProjectId [JsonProperty(\"project_id\")] public string ProjectId { get; set; } 属性值 string VersionId [JsonProperty(\"version_id\")] public string VersionId { get; set; } 属性值 string"
+  },
+  "api/Qomicex_Core.Modules.Sources.Expansion.Modrinth.ModrinthBase.FileHashes.html": {
+    "href": "api/Qomicex_Core.Modules.Sources.Expansion.Modrinth.ModrinthBase.FileHashes.html",
+    "title": "ModrinthBase.FileHashes 类 | Qomicex Core Docs",
+    "summary": "ModrinthBase.FileHashes 类 命名空间 Qomicex_Core.Modules.Sources.Expansion.Modrinth 程序集 Qomicex.Core.dll public class ModrinthBase.FileHashes 继承 object ModrinthBase.FileHashes 继承成员 object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() 属性 Sha1 [JsonProperty(\"sha1\")] public string Sha1 { get; set; } 属性值 string Sha512 [JsonProperty(\"sha512\")] public string Sha512 { get; set; } 属性值 string"
+  },
+  "api/Qomicex_Core.Modules.Sources.Expansion.Modrinth.ModrinthBase.GalleryItem.html": {
+    "href": "api/Qomicex_Core.Modules.Sources.Expansion.Modrinth.ModrinthBase.GalleryItem.html",
+    "title": "ModrinthBase.GalleryItem 类 | Qomicex Core Docs",
+    "summary": "ModrinthBase.GalleryItem 类 命名空间 Qomicex_Core.Modules.Sources.Expansion.Modrinth 程序集 Qomicex.Core.dll 表示Modrinth项目画廊中的单个图片项 public class ModrinthBase.GalleryItem 继承 object ModrinthBase.GalleryItem 继承成员 object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() 属性 Created 画廊图片的创建日期和时间（必填，ISO-8601格式） [JsonProperty(\"created\", Required = Required.Always)] public DateTime Created { get; set; } 属性值 DateTime Description 画廊图片的描述（可选，可为null） [JsonProperty(\"description\")] public string? Description { get; set; } 属性值 string Featured 图片是否在画廊中被标记为精选（必填） [JsonProperty(\"featured\", Required = Required.Always)] public bool Featured { get; set; } 属性值 bool Ordering 画廊图片的排序序号。画廊图片将按此字段排序，然后按标题字母顺序排序 [JsonProperty(\"ordering\")] public int? Ordering { get; set; } 属性值 int? Title 画廊图片的标题（可选，可为null） [JsonProperty(\"title\")] public string? Title { get; set; } 属性值 string Url 画廊图片的URL（必填） [JsonProperty(\"url\", Required = Required.Always)] public string? Url { get; set; } 属性值 string"
+  },
+  "api/Qomicex_Core.Modules.Sources.Expansion.Modrinth.ModrinthBase.Index.html": {
+    "href": "api/Qomicex_Core.Modules.Sources.Expansion.Modrinth.ModrinthBase.Index.html",
+    "title": "ModrinthBase.Index 类 | Qomicex Core Docs",
+    "summary": "ModrinthBase.Index 类 命名空间 Qomicex_Core.Modules.Sources.Expansion.Modrinth 程序集 Qomicex.Core.dll public class ModrinthBase.Index 继承 object ModrinthBase.Index 继承成员 object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() 字段 Downloads public const string Downloads = \"downloads\" 字段值 string Follows public const string Follows = \"follows\" 字段值 string Newest public const string Newest = \"newest\" 字段值 string Relevance public const string Relevance = \"relevance\" 字段值 string Updated public const string Updated = \"updated\" 字段值 string"
+  },
+  "api/Qomicex_Core.Modules.Sources.Expansion.Modrinth.ModrinthBase.ModLoaderType.html": {
+    "href": "api/Qomicex_Core.Modules.Sources.Expansion.Modrinth.ModrinthBase.ModLoaderType.html",
+    "title": "ModrinthBase.ModLoaderType 枚举 | Qomicex Core Docs",
+    "summary": "ModrinthBase.ModLoaderType 枚举 命名空间 Qomicex_Core.Modules.Sources.Expansion.Modrinth 程序集 Qomicex.Core.dll [JsonConverter(typeof(StringEnumConverter))] public enum ModrinthBase.ModLoaderType 字段 fabric = 2 forge = 1 liteLoader = 6 minecraft = 0 modLoader = 7 neoForge = 4 nilloader = 8 ornithe = 9 quilt = 3 rift = 5"
+  },
+  "api/Qomicex_Core.Modules.Sources.Expansion.Modrinth.ModrinthBase.ModrinthTag.html": {
+    "href": "api/Qomicex_Core.Modules.Sources.Expansion.Modrinth.ModrinthBase.ModrinthTag.html",
+    "title": "ModrinthBase.ModrinthTag 类 | Qomicex Core Docs",
+    "summary": "ModrinthBase.ModrinthTag 类 命名空间 Qomicex_Core.Modules.Sources.Expansion.Modrinth 程序集 Qomicex.Core.dll public class ModrinthBase.ModrinthTag 继承 object ModrinthBase.ModrinthTag 继承成员 object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() 属性 Description [JsonProperty(\"description\")] public string Description { get; set; } 属性值 string Icon [JsonProperty(\"icon\")] public string Icon { get; set; } 属性值 string IsChecked [JsonProperty(\"checked\")] public bool IsChecked { get; set; } 属性值 bool Name [JsonProperty(\"name\")] public string Name { get; set; } 属性值 string StringValue public string StringValue { get; set; } 属性值 string"
+  },
+  "api/Qomicex_Core.Modules.Sources.Expansion.Modrinth.ModrinthBase.ProjectInfo.html": {
+    "href": "api/Qomicex_Core.Modules.Sources.Expansion.Modrinth.ModrinthBase.ProjectInfo.html",
+    "title": "ModrinthBase.ProjectInfo 类 | Qomicex Core Docs",
+    "summary": "ModrinthBase.ProjectInfo 类 命名空间 Qomicex_Core.Modules.Sources.Expansion.Modrinth 程序集 Qomicex.Core.dll public class ModrinthBase.ProjectInfo 继承 object ModrinthBase.ProjectInfo 继承成员 object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() 属性 AdditionalCategories [JsonProperty(\"additional_categories\")] public List<string> AdditionalCategories { get; set; } 属性值 List<string> ApprovedAt [JsonProperty(\"approved\")] public DateTime ApprovedAt { get; set; } 属性值 DateTime Categories [JsonProperty(\"categories\")] public List<string> Categories { get; set; } 属性值 List<string> ClientSide [JsonProperty(\"client_side\")] public string ClientSide { get; set; } 属性值 string Description [JsonProperty(\"description\")] public string Description { get; set; } 属性值 string DiscordUrl [JsonProperty(\"discord_url\")] public string DiscordUrl { get; set; } 属性值 string DownloadCount [JsonProperty(\"downloads\")] public int DownloadCount { get; set; } 属性值 int FollowCount [JsonProperty(\"followers\")] public int FollowCount { get; set; } 属性值 int FullDescription [JsonProperty(\"body\")] public string FullDescription { get; set; } 属性值 string Gallery [JsonProperty(\"gallery\")] public List<ModrinthBase.GalleryItem> Gallery { get; set; } 属性值 List<ModrinthBase.GalleryItem> GameVersionIds [JsonProperty(\"game_versions\")] public List<string> GameVersionIds { get; set; } 属性值 List<string> IconUrl [JsonProperty(\"icon_url\")] public string IconUrl { get; set; } 属性值 string Id [JsonProperty(\"id\")] public string Id { get; set; } 属性值 string IssuesUrl [JsonProperty(\"issues_url\")] public string IssuesUrl { get; set; } 属性值 string Loaders [JsonProperty(\"loaders\")] public List<string> Loaders { get; set; } 属性值 List<string> Name [JsonProperty(\"title\")] public string Name { get; set; } 属性值 string Organization [JsonProperty(\"organization\")] public string Organization { get; set; } 属性值 string PublishAt [JsonProperty(\"published\")] public DateTime PublishAt { get; set; } 属性值 DateTime ServerSide [JsonProperty(\"server_side\")] public string ServerSide { get; set; } 属性值 string Slug [JsonProperty(\"slug\")] public string Slug { get; set; } 属性值 string SourceUrl [JsonProperty(\"source_url\")] public string SourceUrl { get; set; } 属性值 string Team [JsonProperty(\"team\")] public string Team { get; set; } 属性值 string Type [JsonProperty(\"project_type\")] public string Type { get; set; } 属性值 string UpdatedAt [JsonProperty(\"updated\")] public DateTime UpdatedAt { get; set; } 属性值 DateTime Versions [JsonProperty(\"versions\")] public List<string> Versions { get; set; } 属性值 List<string> WikiUrl [JsonProperty(\"wiki_url\")] public string WikiUrl { get; set; } 属性值 string"
+  },
+  "api/Qomicex_Core.Modules.Sources.Expansion.Modrinth.ModrinthBase.ProjectType.html": {
+    "href": "api/Qomicex_Core.Modules.Sources.Expansion.Modrinth.ModrinthBase.ProjectType.html",
+    "title": "ModrinthBase.ProjectType 类 | Qomicex Core Docs",
+    "summary": "ModrinthBase.ProjectType 类 命名空间 Qomicex_Core.Modules.Sources.Expansion.Modrinth 程序集 Qomicex.Core.dll public static class ModrinthBase.ProjectType 继承 object ModrinthBase.ProjectType 继承成员 object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() 字段 Datapack public const string Datapack = \"datapack\" 字段值 string Mod public const string Mod = \"mod\" 字段值 string Modpack public const string Modpack = \"modpack\" 字段值 string ResourcePack public const string ResourcePack = \"resourcepack\" 字段值 string Shader public const string Shader = \"shader\" 字段值 string"
+  },
+  "api/Qomicex_Core.Modules.Sources.Expansion.Modrinth.ModrinthBase.ProjectVersionInfo.html": {
+    "href": "api/Qomicex_Core.Modules.Sources.Expansion.Modrinth.ModrinthBase.ProjectVersionInfo.html",
+    "title": "ModrinthBase.ProjectVersionInfo 类 | Qomicex Core Docs",
+    "summary": "ModrinthBase.ProjectVersionInfo 类 命名空间 Qomicex_Core.Modules.Sources.Expansion.Modrinth 程序集 Qomicex.Core.dll public class ModrinthBase.ProjectVersionInfo 继承 object ModrinthBase.ProjectVersionInfo 继承成员 object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() 属性 Changelog [JsonProperty(\"changelog\")] public string Changelog { get; set; } 属性值 string DependenciesInfos [JsonProperty(\"dependencies\")] public List<ModrinthBase.DependenciesInfo> DependenciesInfos { get; set; } 属性值 List<ModrinthBase.DependenciesInfo> DownloadCount [JsonProperty(\"downloads\")] public int DownloadCount { get; set; } 属性值 int Files [JsonProperty(\"files\")] public List<ModrinthBase.VersionFileInfo> Files { get; set; } 属性值 List<ModrinthBase.VersionFileInfo> GameVersionIds [JsonProperty(\"game_versions\")] public List<string> GameVersionIds { get; set; } 属性值 List<string> Id [JsonProperty(\"id\")] public string Id { get; set; } 属性值 string Loaders [JsonProperty(\"loaders\")] public List<string> Loaders { get; set; } 属性值 List<string> Name [JsonProperty(\"name\")] public string Name { get; set; } 属性值 string ProjectId [JsonProperty(\"project_id\")] public string ProjectId { get; set; } 属性值 string PublishedAt [JsonProperty(\"date_published\")] public DateTime PublishedAt { get; set; } 属性值 DateTime VersionNumber [JsonProperty(\"version_number\")] public string VersionNumber { get; set; } 属性值 string VersionType [JsonProperty(\"version_type\")] public string VersionType { get; set; } 属性值 string"
+  },
+  "api/Qomicex_Core.Modules.Sources.Expansion.Modrinth.ModrinthBase.SearchResult.html": {
+    "href": "api/Qomicex_Core.Modules.Sources.Expansion.Modrinth.ModrinthBase.SearchResult.html",
+    "title": "ModrinthBase.SearchResult 类 | Qomicex Core Docs",
+    "summary": "ModrinthBase.SearchResult 类 命名空间 Qomicex_Core.Modules.Sources.Expansion.Modrinth 程序集 Qomicex.Core.dll public class ModrinthBase.SearchResult 继承 object ModrinthBase.SearchResult 继承成员 object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() 属性 Results [JsonProperty(\"hits\")] public List<ModrinthBase.SearchResultInfo> Results { get; set; } 属性值 List<ModrinthBase.SearchResultInfo> TotalResults [JsonProperty(\"total_hits\")] public int TotalResults { get; set; } 属性值 int"
+  },
+  "api/Qomicex_Core.Modules.Sources.Expansion.Modrinth.ModrinthBase.SearchResultInfo.html": {
+    "href": "api/Qomicex_Core.Modules.Sources.Expansion.Modrinth.ModrinthBase.SearchResultInfo.html",
+    "title": "ModrinthBase.SearchResultInfo 类 | Qomicex Core Docs",
+    "summary": "ModrinthBase.SearchResultInfo 类 命名空间 Qomicex_Core.Modules.Sources.Expansion.Modrinth 程序集 Qomicex.Core.dll public class ModrinthBase.SearchResultInfo 继承 object ModrinthBase.SearchResultInfo 继承成员 object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() 属性 Author [JsonProperty(\"author\")] public string Author { get; set; } 属性值 string Categories [JsonProperty(\"categories\")] public List<string> Categories { get; set; } 属性值 List<string> ClientSide [JsonProperty(\"client_side\")] public string ClientSide { get; set; } 属性值 string CreatedAt [JsonProperty(\"date_created\")] public DateTime CreatedAt { get; set; } 属性值 DateTime Description [JsonProperty(\"description\")] public string Description { get; set; } 属性值 string DownloadCount [JsonProperty(\"downloads\")] public int DownloadCount { get; set; } 属性值 int FollowCount [JsonProperty(\"follows\")] public int FollowCount { get; set; } 属性值 int FullDescription [JsonProperty(\"body\")] public string FullDescription { get; set; } 属性值 string GalleryUrls [JsonProperty(\"gallery\")] public List<string> GalleryUrls { get; set; } 属性值 List<string> IconUrl [JsonProperty(\"icon_url\")] public string IconUrl { get; set; } 属性值 string Id [JsonProperty(\"project_id\")] public string Id { get; set; } 属性值 string License [JsonProperty(\"license\")] public string License { get; set; } 属性值 string Name [JsonProperty(\"title\")] public string Name { get; set; } 属性值 string ServerSide [JsonProperty(\"server_side\")] public string ServerSide { get; set; } 属性值 string Slug [JsonProperty(\"slug\")] public string Slug { get; set; } 属性值 string Tags [JsonProperty(\"tags\")] public List<string> Tags { get; set; } 属性值 List<string> Type [JsonProperty(\"project_type\")] public string Type { get; set; } 属性值 string UpdatedAt [JsonProperty(\"date_modified\")] public DateTime UpdatedAt { get; set; } 属性值 DateTime VersionIds [JsonProperty(\"versions\")] public List<string> VersionIds { get; set; } 属性值 List<string>"
+  },
+  "api/Qomicex_Core.Modules.Sources.Expansion.Modrinth.ModrinthBase.SupportType.html": {
+    "href": "api/Qomicex_Core.Modules.Sources.Expansion.Modrinth.ModrinthBase.SupportType.html",
+    "title": "ModrinthBase.SupportType 类 | Qomicex Core Docs",
+    "summary": "ModrinthBase.SupportType 类 命名空间 Qomicex_Core.Modules.Sources.Expansion.Modrinth 程序集 Qomicex.Core.dll public static class ModrinthBase.SupportType 继承 object ModrinthBase.SupportType 继承成员 object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() 字段 Optional public const string Optional = \"optional\" 字段值 string Required public const string Required = \"required\" 字段值 string Unsupported public const string Unsupported = \"unsupported\" 字段值 string"
+  },
+  "api/Qomicex_Core.Modules.Sources.Expansion.Modrinth.ModrinthBase.VersionFileInfo.html": {
+    "href": "api/Qomicex_Core.Modules.Sources.Expansion.Modrinth.ModrinthBase.VersionFileInfo.html",
+    "title": "ModrinthBase.VersionFileInfo 类 | Qomicex Core Docs",
+    "summary": "ModrinthBase.VersionFileInfo 类 命名空间 Qomicex_Core.Modules.Sources.Expansion.Modrinth 程序集 Qomicex.Core.dll public class ModrinthBase.VersionFileInfo 继承 object ModrinthBase.VersionFileInfo 继承成员 object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() 属性 DownloadUrl [JsonProperty(\"url\")] public string DownloadUrl { get; set; } 属性值 string FileType [JsonProperty(\"file_type\")] public string FileType { get; set; } 属性值 string Filename [JsonProperty(\"filename\")] public string Filename { get; set; } 属性值 string Hashes [JsonProperty(\"hashes\")] public ModrinthBase.FileHashes Hashes { get; set; } 属性值 ModrinthBase.FileHashes IsPrimary [JsonProperty(\"primary\")] public bool IsPrimary { get; set; } 属性值 bool Size [JsonProperty(\"size\")] public long Size { get; set; } 属性值 long"
+  },
+  "api/Qomicex_Core.Modules.Sources.Expansion.Modrinth.ModrinthBase.VersionInfo.html": {
+    "href": "api/Qomicex_Core.Modules.Sources.Expansion.Modrinth.ModrinthBase.VersionInfo.html",
+    "title": "ModrinthBase.VersionInfo 类 | Qomicex Core Docs",
+    "summary": "ModrinthBase.VersionInfo 类 命名空间 Qomicex_Core.Modules.Sources.Expansion.Modrinth 程序集 Qomicex.Core.dll public class ModrinthBase.VersionInfo 继承 object ModrinthBase.VersionInfo 继承成员 object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() 属性 ApprovedAt [JsonProperty(\"approved\")] public DateTime ApprovedAt { get; set; } 属性值 DateTime Changelog [JsonProperty(\"changelog\")] public string Changelog { get; set; } 属性值 string DependenciesInfos [JsonProperty(\"dependencies\")] public List<ModrinthBase.DependenciesInfo> DependenciesInfos { get; set; } 属性值 List<ModrinthBase.DependenciesInfo> DownloadCount [JsonProperty(\"downloads\")] public int DownloadCount { get; set; } 属性值 int Files [JsonProperty(\"files\")] public List<ModrinthBase.VersionFileInfo> Files { get; set; } 属性值 List<ModrinthBase.VersionFileInfo> GameVersionIds [JsonProperty(\"game_versions\")] public List<string> GameVersionIds { get; set; } 属性值 List<string> IconUrl [JsonProperty(\"icon_url\")] public string IconUrl { get; set; } 属性值 string Id [JsonProperty(\"id\")] public string Id { get; set; } 属性值 string Loaders [JsonProperty(\"loaders\")] public List<string> Loaders { get; set; } 属性值 List<string> Name [JsonProperty(\"title\")] public string Name { get; set; } 属性值 string ProjectId [JsonProperty(\"project_id\")] public string ProjectId { get; set; } 属性值 string PublishedAt [JsonProperty(\"published\")] public DateTime PublishedAt { get; set; } 属性值 DateTime Slug [JsonProperty(\"slug\")] public string Slug { get; set; } 属性值 string UpdatedAt [JsonProperty(\"updated\")] public DateTime UpdatedAt { get; set; } 属性值 DateTime Versions [JsonProperty(\"versions\")] public List<string> Versions { get; set; } 属性值 List<string>"
+  },
+  "api/Qomicex_Core.Modules.Sources.Expansion.Modrinth.ModrinthBase.html": {
+    "href": "api/Qomicex_Core.Modules.Sources.Expansion.Modrinth.ModrinthBase.html",
+    "title": "ModrinthBase 类 | Qomicex Core Docs",
+    "summary": "ModrinthBase 类 命名空间 Qomicex_Core.Modules.Sources.Expansion.Modrinth 程序集 Qomicex.Core.dll public class ModrinthBase 继承 object ModrinthBase Derived Modpacks Mods ResourcePacks 继承成员 object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() 方法 GetCategoriesAsync() public Task<List<ModrinthBase.ModrinthTag>> GetCategoriesAsync() 返回 Task<List<ModrinthBase.ModrinthTag>> GetLoadersAsync() public Task<List<ModrinthBase.ModrinthTag>> GetLoadersAsync() 返回 Task<List<ModrinthBase.ModrinthTag>> GetProjectTypesAsync() public Task<List<ModrinthBase.ModrinthTag>> GetProjectTypesAsync() 返回 Task<List<ModrinthBase.ModrinthTag>>"
+  },
+  "api/Qomicex_Core.Modules.Sources.Expansion.Modrinth.Mods.Categories.html": {
+    "href": "api/Qomicex_Core.Modules.Sources.Expansion.Modrinth.Mods.Categories.html",
+    "title": "Mods.Categories 枚举 | Qomicex Core Docs",
+    "summary": "Mods.Categories 枚举 命名空间 Qomicex_Core.Modules.Sources.Expansion.Modrinth 程序集 Qomicex.Core.dll [JsonConverter(typeof(StringEnumConverter))] public enum Mods.Categories 字段 [EnumMember(Value = \"adventure\")] Adventure = 0 [EnumMember(Value = \"cursed\")] Cursed = 1 [EnumMember(Value = \"decoration\")] Decoration = 2 [EnumMember(Value = \"economy\")] Economy = 3 [EnumMember(Value = \"equipment\")] Equipment = 4 [EnumMember(Value = \"food\")] Food = 5 [EnumMember(Value = \"game-mechanics\")] GameMechanics = 6 [EnumMember(Value = \"library\")] Library = 7 [EnumMember(Value = \"magic\")] Magic = 8 [EnumMember(Value = \"management\")] Management = 9 [EnumMember(Value = \"minigame\")] Minigame = 10 [EnumMember(Value = \"mobs\")] Mobs = 11 [EnumMember(Value = \"optimization\")] Optimization = 12 [EnumMember(Value = \"social\")] Social = 13 [EnumMember(Value = \"storage\")] Storage = 14 [EnumMember(Value = \"technology\")] Technology = 15 [EnumMember(Value = \"transportation\")] Transportation = 16 [EnumMember(Value = \"utility\")] Utility = 17 [EnumMember(Value = \"worldgen\")] Worldgen = 18"
+  },
+  "api/Qomicex_Core.Modules.Sources.Expansion.Modrinth.Mods.ModLoaderType.html": {
+    "href": "api/Qomicex_Core.Modules.Sources.Expansion.Modrinth.Mods.ModLoaderType.html",
+    "title": "Mods.ModLoaderType 枚举 | Qomicex Core Docs",
+    "summary": "Mods.ModLoaderType 枚举 命名空间 Qomicex_Core.Modules.Sources.Expansion.Modrinth 程序集 Qomicex.Core.dll [JsonConverter(typeof(StringEnumConverter))] public enum Mods.ModLoaderType 字段 fabric = 1 forge = 0 liteLoader = 5 modLoader = 6 neoForge = 3 nilloader = 7 ornithe = 8 quilt = 2 rift = 4"
+  },
+  "api/Qomicex_Core.Modules.Sources.Expansion.Modrinth.Mods.ModSearchResult.html": {
+    "href": "api/Qomicex_Core.Modules.Sources.Expansion.Modrinth.Mods.ModSearchResult.html",
+    "title": "Mods.ModSearchResult 类 | Qomicex Core Docs",
+    "summary": "Mods.ModSearchResult 类 命名空间 Qomicex_Core.Modules.Sources.Expansion.Modrinth 程序集 Qomicex.Core.dll public class Mods.ModSearchResult 继承 object Mods.ModSearchResult 继承成员 object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() 属性 Author public string Author { get; set; } 属性值 string Categories public List<string> Categories { get; set; } 属性值 List<string> DateCreated public DateTime DateCreated { get; set; } 属性值 DateTime Description public string Description { get; set; } 属性值 string DisplayCategories public List<string> DisplayCategories { get; set; } 属性值 List<string> DownloadCount public string DownloadCount { get; set; } 属性值 string Follows public int Follows { get; set; } 属性值 int GameVersion public string GameVersion { get; set; } 属性值 string IconUrl public string IconUrl { get; set; } 属性值 string Id public string Id { get; set; } 属性值 string Name public string Name { get; set; } 属性值 string Slug public string Slug { get; set; } 属性值 string Type public string Type { get; set; } 属性值 string"
+  },
+  "api/Qomicex_Core.Modules.Sources.Expansion.Modrinth.Mods.html": {
+    "href": "api/Qomicex_Core.Modules.Sources.Expansion.Modrinth.Mods.html",
+    "title": "Mods 类 | Qomicex Core Docs",
+    "summary": "Mods 类 命名空间 Qomicex_Core.Modules.Sources.Expansion.Modrinth 程序集 Qomicex.Core.dll public class Mods : ModrinthBase 继承 object ModrinthBase Mods 继承成员 ModrinthBase.GetCategoriesAsync() ModrinthBase.GetLoadersAsync() ModrinthBase.GetProjectTypesAsync() object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() 方法 GetProjectInfoAsync(string) 异步获取Modrinth上指定项目ID的详细信息 public Task<ModrinthBase.ProjectInfo> GetProjectInfoAsync(string ProjectId) 参数 ProjectId string 项目ID 返回 Task<ModrinthBase.ProjectInfo> 项目信息 异常 ArgumentException Exception GetProjectVersionInfoAsync(string) 异步获取Modrinth上指定项目ID的版本信息 public Task<List<ModrinthBase.ProjectVersionInfo>> GetProjectVersionInfoAsync(string ProjectId) 参数 ProjectId string 项目ID 返回 Task<List<ModrinthBase.ProjectVersionInfo>> 项目版本信息 异常 ArgumentException Exception GetVersionInfoAsync(string) 异步获取Modrinth上指定版本ID的详细版本信息 public Task<ModrinthBase.VersionInfo> GetVersionInfoAsync(string VersionId) 参数 VersionId string 版本ID 返回 Task<ModrinthBase.VersionInfo> 版本信息 异常 ArgumentException Exception SearchAsync(string, string?, string[]?, string[]?, string, int, int) 异步搜索Modrinth上的模组 public Task<ModrinthBase.SearchResult> SearchAsync(string SearchFilter, string? GameVersion, string[]? Categories, string[]? Loaders, string Index = \"relevance\", int Page = 0, int PageSize = 20) 参数 SearchFilter string 搜索关键词 GameVersion string Minecraft版本 Categories string[] 分类标签 Loaders string[] 模组加载器类型 Index string 排序方式，默认按相关性排序 Page int 页数，最小为0，默认0 PageSize int 每页大小，最多100个，默认20 返回 Task<ModrinthBase.SearchResult> 搜索结果 异常 ArgumentException"
+  },
+  "api/Qomicex_Core.Modules.Sources.Expansion.Modrinth.ResourcePacks.html": {
+    "href": "api/Qomicex_Core.Modules.Sources.Expansion.Modrinth.ResourcePacks.html",
+    "title": "ResourcePacks 类 | Qomicex Core Docs",
+    "summary": "ResourcePacks 类 命名空间 Qomicex_Core.Modules.Sources.Expansion.Modrinth 程序集 Qomicex.Core.dll public class ResourcePacks : ModrinthBase 继承 object ModrinthBase ResourcePacks 继承成员 ModrinthBase.GetCategoriesAsync() ModrinthBase.GetLoadersAsync() ModrinthBase.GetProjectTypesAsync() object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() 方法 GetProjectInfoAsync(string) 异步获取Modrinth上指定项目ID的详细信息 public Task<ModrinthBase.ProjectInfo> GetProjectInfoAsync(string ProjectId) 参数 ProjectId string 项目ID 返回 Task<ModrinthBase.ProjectInfo> 项目信息 异常 ArgumentException Exception GetProjectVersionInfoAsync(string) 异步获取Modrinth上指定项目ID的版本信息 public Task<List<ModrinthBase.ProjectVersionInfo>> GetProjectVersionInfoAsync(string ProjectId) 参数 ProjectId string 项目ID 返回 Task<List<ModrinthBase.ProjectVersionInfo>> 项目版本信息 异常 ArgumentException Exception GetVersionInfoAsync(string) 异步获取Modrinth上指定版本ID的详细版本信息 public Task<ModrinthBase.VersionInfo> GetVersionInfoAsync(string VersionId) 参数 VersionId string 版本ID 返回 Task<ModrinthBase.VersionInfo> 版本信息 异常 ArgumentException Exception SearchAsync(string, string?, string[]?, string[]?, string, int, int) 异步搜索Modrinth上的资源包 public Task<ModrinthBase.SearchResult> SearchAsync(string SearchFilter, string? GameVersion, string[]? Categories, string[]? Loaders = null, string Index = \"relevance\", int Page = 0, int PageSize = 20) 参数 SearchFilter string 搜索关键词 GameVersion string Minecraft版本 Categories string[] 分类标签 Loaders string[] 模组加载器类型 Index string 排序方式，默认按相关性排序 Page int 页数，最小为0，默认0 PageSize int 每页大小，最多100个，默认20 返回 Task<ModrinthBase.SearchResult> 搜索结果 异常 ArgumentException"
+  },
+  "api/Qomicex_Core.Modules.Sources.Expansion.Modrinth.html": {
+    "href": "api/Qomicex_Core.Modules.Sources.Expansion.Modrinth.html",
+    "title": "Qomicex_Core.Modules.Sources.Expansion.Modrinth 命名空间 | Qomicex Core Docs",
+    "summary": "Qomicex_Core.Modules.Sources.Expansion.Modrinth 命名空间 类 DataPacks Modpacks ModrinthBase ModrinthBase.DependenciesInfo ModrinthBase.FileHashes ModrinthBase.GalleryItem 表示Modrinth项目画廊中的单个图片项 ModrinthBase.Index ModrinthBase.ModrinthTag ModrinthBase.ProjectInfo ModrinthBase.ProjectType ModrinthBase.ProjectVersionInfo ModrinthBase.SearchResult ModrinthBase.SearchResultInfo ModrinthBase.SupportType ModrinthBase.VersionFileInfo ModrinthBase.VersionInfo Mods ResourcePacks 枚举 ModrinthBase.ModLoaderType"
+  },
+  "api/Qomicex_Core.Modules.Sources.Expansion.Worlds.Category.html": {
+    "href": "api/Qomicex_Core.Modules.Sources.Expansion.Worlds.Category.html",
+    "title": "Worlds.Category 枚举 | Qomicex Core Docs",
+    "summary": "Worlds.Category 枚举 命名空间 Qomicex_Core.Modules.Sources.Expansion 程序集 Qomicex.Core.dll public enum Worlds.Category 字段 Adventure = 248 Creation = 249 GameMap = 250 ModdedWorld = 4464 Parkour = 251 Puzzle = 252 Survival = 253"
+  },
+  "api/Qomicex_Core.Modules.Sources.Expansion.Worlds.html": {
+    "href": "api/Qomicex_Core.Modules.Sources.Expansion.Worlds.html",
+    "title": "Worlds 类 | Qomicex Core Docs",
+    "summary": "Worlds 类 命名空间 Qomicex_Core.Modules.Sources.Expansion 程序集 Qomicex.Core.dll public class Worlds : CurseForgeBase 继承 object CurseForgeBase Worlds 继承成员 CurseForgeBase.GetDownloadUrl(string, string) CurseForgeBase.GetDownloadUrlAsync(string, string) object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() 构造函数 Worlds(string) public Worlds(string ApiKey) 参数 ApiKey string 方法 GetModInfoAsync(string) 异步获取指定World的详细信息 public Task<CurseForgeBase.CurseForgeInfo> GetModInfoAsync(string Id) 参数 Id string ModId 返回 Task<CurseForgeBase.CurseForgeInfo> World信息 异常 ArgumentNullException Exception GetRecommendWorlds(string?[], int?[], int?, int?, int?) 获取推荐的World列表 public Task<List<CurseForgeBase.CurseForgeSearchResult>> GetRecommendWorlds(string?[] GameVersions, int?[] Categories, int? SortField = 0, int? Page = 1, int? PageSize = 25) 参数 GameVersions string[] 游戏版本 Categories int?[] 分类 SortField int? 排序方式 Page int? 页数 PageSize int? 页面大小 返回 Task<List<CurseForgeBase.CurseForgeSearchResult>> 结果 SearchAsync(string, string?[], int?[], int?, int?, int?) 异步搜索CurseForge上的World public Task<List<CurseForgeBase.CurseForgeSearchResult>> SearchAsync(string SearchFilter, string?[] GameVersions, int?[] Categories, int? SortField = 0, int? Page = 1, int? PageSize = 25) 参数 SearchFilter string 搜索关键词 GameVersions string[] 游戏版本 Categories int?[] 分类标签 SortField int? 排序方式 Page int? 页数 PageSize int? 单页搜索结果条目数 返回 Task<List<CurseForgeBase.CurseForgeSearchResult>> 异常 ArgumentOutOfRangeException Exception"
+  },
+  "api/Qomicex_Core.Modules.Sources.Expansion.html": {
+    "href": "api/Qomicex_Core.Modules.Sources.Expansion.html",
+    "title": "Qomicex_Core.Modules.Sources.Expansion 命名空间 | Qomicex Core Docs",
+    "summary": "Qomicex_Core.Modules.Sources.Expansion 命名空间 类 Worlds 枚举 Worlds.Category"
+  },
+  "api/Qomicex_Core.Modules.Sources.Local.DownloadSource.html": {
+    "href": "api/Qomicex_Core.Modules.Sources.Local.DownloadSource.html",
+    "title": "Local.DownloadSource 类 | Qomicex Core Docs",
+    "summary": "Local.DownloadSource 类 命名空间 Qomicex_Core.Modules.Sources 程序集 Qomicex.Core.dll public class Local.DownloadSource 继承 object Local.DownloadSource 继承成员 object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() 字段 assetsIndexSource public string assetsIndexSource 字段值 string assetsSource public string assetsSource 字段值 string librariesSource public string librariesSource 字段值 string mainJarSource public string mainJarSource 字段值 string"
+  },
+  "api/Qomicex_Core.Modules.Sources.Local.DownloadSources.html": {
+    "href": "api/Qomicex_Core.Modules.Sources.Local.DownloadSources.html",
+    "title": "Local.DownloadSources 枚举 | Qomicex Core Docs",
+    "summary": "Local.DownloadSources 枚举 命名空间 Qomicex_Core.Modules.Sources 程序集 Qomicex.Core.dll public enum Local.DownloadSources 字段 BMCLAPI = 1 Mojang = 0"
+  },
+  "api/Qomicex_Core.Modules.Sources.Local.MissFileData.html": {
+    "href": "api/Qomicex_Core.Modules.Sources.Local.MissFileData.html",
+    "title": "Local.MissFileData 类 | Qomicex Core Docs",
+    "summary": "Local.MissFileData 类 命名空间 Qomicex_Core.Modules.Sources 程序集 Qomicex.Core.dll public class Local.MissFileData 继承 object Local.MissFileData 继承成员 object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() 字段 Name public string Name 字段值 string Path public string Path 字段值 string Sha1 public string Sha1 字段值 string Url public string Url 字段值 string"
+  },
+  "api/Qomicex_Core.Modules.Sources.Local.html": {
+    "href": "api/Qomicex_Core.Modules.Sources.Local.html",
+    "title": "Local 类 | Qomicex Core Docs",
+    "summary": "Local 类 命名空间 Qomicex_Core.Modules.Sources 程序集 Qomicex.Core.dll public class Local 继承 object Local 继承成员 object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() 方法 GetAllMissFilesAsync(string, string) public Task<List<Local.MissFileData>> GetAllMissFilesAsync(string version, string gameDir) 参数 version string gameDir string 返回 Task<List<Local.MissFileData>> GetMissAssetsAsync(string, string) public Task<List<Local.MissFileData>> GetMissAssetsAsync(string version, string gameDir) 参数 version string gameDir string 返回 Task<List<Local.MissFileData>> GetMissLibrariesAsync(string, string) public Task<List<Local.MissFileData>> GetMissLibrariesAsync(string version, string gameDir) 参数 version string gameDir string 返回 Task<List<Local.MissFileData>> GetMissMainJarAsync(string, string) public Task<Local.MissFileData?> GetMissMainJarAsync(string version, string gameDir) 参数 version string gameDir string 返回 Task<Local.MissFileData> MavenToPath(string) public static string MavenToPath(string maven) 参数 maven string 返回 string SetDownloadSource(int) public void SetDownloadSource(int source) 参数 source int"
+  },
+  "api/Qomicex_Core.Modules.Sources.Minecraft.VersionInfo.html": {
+    "href": "api/Qomicex_Core.Modules.Sources.Minecraft.VersionInfo.html",
+    "title": "Minecraft.VersionInfo 类 | Qomicex Core Docs",
+    "summary": "Minecraft.VersionInfo 类 命名空间 Qomicex_Core.Modules.Sources 程序集 Qomicex.Core.dll public class Minecraft.VersionInfo 继承 object Minecraft.VersionInfo 继承成员 object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() 属性 Id public string? Id { get; set; } 属性值 string ReleaseTime public DateTime ReleaseTime { get; set; } 属性值 DateTime Type public string? Type { get; set; } 属性值 string Url public string? Url { get; set; } 属性值 string"
+  },
+  "api/Qomicex_Core.Modules.Sources.Minecraft.html": {
+    "href": "api/Qomicex_Core.Modules.Sources.Minecraft.html",
+    "title": "Minecraft 类 | Qomicex Core Docs",
+    "summary": "Minecraft 类 命名空间 Qomicex_Core.Modules.Sources 程序集 Qomicex.Core.dll public class Minecraft 继承 object Minecraft 继承成员 object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() 构造函数 Minecraft() public Minecraft() 方法 GetMinecraftListAsync(int) public Task<List<Minecraft.VersionInfo>> GetMinecraftListAsync(int source = 1) 参数 source int 返回 Task<List<Minecraft.VersionInfo>> GetMinecraftVersionManifest(int) public Task<dynamic?> GetMinecraftVersionManifest(int DownloadScore = 1) 参数 DownloadScore int 返回 Task<dynamic> ParseVersionList(dynamic) public List<Minecraft.VersionInfo> ParseVersionList(dynamic versionManifest) 参数 versionManifest dynamic 返回 List<Minecraft.VersionInfo>"
+  },
+  "api/Qomicex_Core.Modules.Sources.Modloader.DownloadSource.html": {
+    "href": "api/Qomicex_Core.Modules.Sources.Modloader.DownloadSource.html",
+    "title": "Modloader.DownloadSource 类 | Qomicex Core Docs",
+    "summary": "Modloader.DownloadSource 类 命名空间 Qomicex_Core.Modules.Sources 程序集 Qomicex.Core.dll public class Modloader.DownloadSource 继承 object Modloader.DownloadSource 继承成员 object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() 字段 assetsIndexSource public string assetsIndexSource 字段值 string assetsSource public string assetsSource 字段值 string librariesSource public string librariesSource 字段值 string mainJarSource public string mainJarSource 字段值 string"
+  },
+  "api/Qomicex_Core.Modules.Sources.Modloader.DownloadSources.html": {
+    "href": "api/Qomicex_Core.Modules.Sources.Modloader.DownloadSources.html",
+    "title": "Modloader.DownloadSources 枚举 | Qomicex Core Docs",
+    "summary": "Modloader.DownloadSources 枚举 命名空间 Qomicex_Core.Modules.Sources 程序集 Qomicex.Core.dll public enum Modloader.DownloadSources 字段 BMCLAPI = 1 Official = 0"
+  },
+  "api/Qomicex_Core.Modules.Sources.Modloader.LiteloaderVersionInfo.html": {
+    "href": "api/Qomicex_Core.Modules.Sources.Modloader.LiteloaderVersionInfo.html",
+    "title": "Modloader.LiteloaderVersionInfo 类 | Qomicex Core Docs",
+    "summary": "Modloader.LiteloaderVersionInfo 类 命名空间 Qomicex_Core.Modules.Sources 程序集 Qomicex.Core.dll public class Modloader.LiteloaderVersionInfo 继承 object Modloader.LiteloaderVersionInfo 继承成员 object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() 属性 Hash [JsonProperty(\"hash\")] public string Hash { get; set; } 属性值 string MinecraftVersion [JsonProperty(\"mcversion\")] public string MinecraftVersion { get; set; } 属性值 string Type [JsonProperty(\"type\")] public string Type { get; set; } 属性值 string Version [JsonProperty(\"version\")] public string Version { get; set; } 属性值 string"
+  },
+  "api/Qomicex_Core.Modules.Sources.Modloader.ModLoaderInfo.html": {
+    "href": "api/Qomicex_Core.Modules.Sources.Modloader.ModLoaderInfo.html",
+    "title": "Modloader.ModLoaderInfo 类 | Qomicex Core Docs",
+    "summary": "Modloader.ModLoaderInfo 类 命名空间 Qomicex_Core.Modules.Sources 程序集 Qomicex.Core.dll public class Modloader.ModLoaderInfo 继承 object Modloader.ModLoaderInfo 继承成员 object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() 属性 DownloadUrl public string DownloadUrl { get; set; } 属性值 string InstallerFileName public string InstallerFileName { get; } 属性值 string IsRecommended public bool IsRecommended { get; set; } 属性值 bool MinecraftVersion public string MinecraftVersion { get; set; } 属性值 string Sha1 public string Sha1 { get; set; } 属性值 string Type public Modloader.ModLoaderType Type { get; set; } 属性值 Modloader.ModLoaderType Version public string Version { get; set; } 属性值 string VersionJsonPath public string VersionJsonPath { get; } 属性值 string"
+  },
+  "api/Qomicex_Core.Modules.Sources.Modloader.ModLoaderType.html": {
+    "href": "api/Qomicex_Core.Modules.Sources.Modloader.ModLoaderType.html",
+    "title": "Modloader.ModLoaderType 枚举 | Qomicex Core Docs",
+    "summary": "Modloader.ModLoaderType 枚举 命名空间 Qomicex_Core.Modules.Sources 程序集 Qomicex.Core.dll public enum Modloader.ModLoaderType 字段 All = 0 Fabric = 2 Forge = 1 LiteLoader = 5 NeoForge = 3 Optifine = 6 Quilt = 4"
+  },
+  "api/Qomicex_Core.Modules.Sources.Modloader.NeoForgeVersionInfo.html": {
+    "href": "api/Qomicex_Core.Modules.Sources.Modloader.NeoForgeVersionInfo.html",
+    "title": "Modloader.NeoForgeVersionInfo 类 | Qomicex Core Docs",
+    "summary": "Modloader.NeoForgeVersionInfo 类 命名空间 Qomicex_Core.Modules.Sources 程序集 Qomicex.Core.dll NeoForge版本信息模型 public class Modloader.NeoForgeVersionInfo 继承 object Modloader.NeoForgeVersionInfo 继承成员 object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() 属性 InstallerPath [JsonProperty(\"installerPath\")] public string InstallerPath { get; set; } 属性值 string MinecraftVersion [JsonProperty(\"mcversion\")] public string MinecraftVersion { get; set; } 属性值 string RawVersion [JsonProperty(\"rawVersion\")] public string RawVersion { get; set; } 属性值 string Version [JsonProperty(\"version\")] public string Version { get; set; } 属性值 string"
+  },
+  "api/Qomicex_Core.Modules.Sources.Modloader.OptifineVersionInfo.html": {
+    "href": "api/Qomicex_Core.Modules.Sources.Modloader.OptifineVersionInfo.html",
+    "title": "Modloader.OptifineVersionInfo 类 | Qomicex Core Docs",
+    "summary": "Modloader.OptifineVersionInfo 类 命名空间 Qomicex_Core.Modules.Sources 程序集 Qomicex.Core.dll public class Modloader.OptifineVersionInfo 继承 object Modloader.OptifineVersionInfo 继承成员 object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() 属性 Filename [JsonProperty(\"filename\")] public string Filename { get; set; } 属性值 string Forge [JsonProperty(\"forge\")] public string Forge { get; set; } 属性值 string MinecraftVersion [JsonProperty(\"mcversion\")] public string MinecraftVersion { get; set; } 属性值 string Patch [JsonProperty(\"patch\")] public string Patch { get; set; } 属性值 string Type [JsonProperty(\"type\")] public string Type { get; set; } 属性值 string"
+  },
+  "api/Qomicex_Core.Modules.Sources.Modloader.html": {
+    "href": "api/Qomicex_Core.Modules.Sources.Modloader.html",
+    "title": "Modloader 类 | Qomicex Core Docs",
+    "summary": "Modloader 类 命名空间 Qomicex_Core.Modules.Sources 程序集 Qomicex.Core.dll public class Modloader 继承 object Modloader 继承成员 object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() 构造函数 Modloader(int) public Modloader(int downloadSourceId = 0) 参数 downloadSourceId int 方法 GetAvailableModLoaders(string, ModLoaderType) public Task<List<Modloader.ModLoaderInfo>> GetAvailableModLoaders(string minecraftVersion, Modloader.ModLoaderType modLoaderType = ModLoaderType.All) 参数 minecraftVersion string modLoaderType Modloader.ModLoaderType 返回 Task<List<Modloader.ModLoaderInfo>> SetDownloadSource(int) public Modloader.DownloadSource SetDownloadSource(int sourceId) 参数 sourceId int 返回 Modloader.DownloadSource"
+  },
+  "api/Qomicex_Core.Modules.Sources.html": {
+    "href": "api/Qomicex_Core.Modules.Sources.html",
+    "title": "Qomicex_Core.Modules.Sources 命名空间 | Qomicex Core Docs",
+    "summary": "Qomicex_Core.Modules.Sources 命名空间 类 Local Local.DownloadSource Local.MissFileData Minecraft Minecraft.VersionInfo Modloader Modloader.DownloadSource Modloader.LiteloaderVersionInfo Modloader.ModLoaderInfo Modloader.NeoForgeVersionInfo NeoForge版本信息模型 Modloader.OptifineVersionInfo 枚举 Local.DownloadSources Modloader.DownloadSources Modloader.ModLoaderType"
+  },
+  "api/Qomicex_Core.Modules.Tools.MainTools.State.html": {
+    "href": "api/Qomicex_Core.Modules.Tools.MainTools.State.html",
+    "title": "MainTools.State 类 | Qomicex Core Docs",
+    "summary": "MainTools.State 类 命名空间 Qomicex_Core.Modules.Tools 程序集 Qomicex.Core.dll public class MainTools.State 继承 object MainTools.State 继承成员 object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() 字段 Describe public string Describe 字段值 string Name public string Name 字段值 string"
+  },
+  "api/Qomicex_Core.Modules.Tools.MainTools.html": {
+    "href": "api/Qomicex_Core.Modules.Tools.MainTools.html",
+    "title": "MainTools 类 | Qomicex Core Docs",
+    "summary": "MainTools 类 命名空间 Qomicex_Core.Modules.Tools 程序集 Qomicex.Core.dll public class MainTools 继承 object MainTools 继承成员 object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() 方法 CheckVersionAvailablity(string, string) public MainTools.State CheckVersionAvailablity(string GameDir, string Version) 参数 GameDir string Version string 返回 MainTools.State DeleteExcept(string, string) 删除指定目录中除特定后缀外的所有文件（注意：操作有风险，需确保路径正确） public static bool DeleteExcept(string folderPath, string keepSuffix) 参数 folderPath string keepSuffix string 返回 bool ExtractFolderFromZip(string, string, string) public static List<string> ExtractFolderFromZip(string zipPath, string targetFolderInZip, string outputDirectory) 参数 zipPath string targetFolderInZip string outputDirectory string 返回 List<string> GetJavaVersion(string) public static string GetJavaVersion(string javaPath) 参数 javaPath string 返回 string GetMinecraftRequireJavaVersion(string, string) public static string GetMinecraftRequireJavaVersion(string version, string gameDir) 参数 version string gameDir string 返回 string GetModLoaderType(string, string) public string[] GetModLoaderType(string Version, string GameDir) 参数 Version string GameDir string 返回 string[] GetNormalizedMajorVersion(string) public static int GetNormalizedMajorVersion(string version) 参数 version string 返回 int GetOptimalMemory(double) public long GetOptimalMemory(double percentage = 0.6) 参数 percentage double 返回 long GetTotalMemoryWMI() public static ulong GetTotalMemoryWMI() 返回 ulong Is64() public bool Is64() 返回 bool IsAdministrator() public static bool IsAdministrator() 返回 bool NameToUuid(string) public string NameToUuid(string name) 参数 name string 返回 string ReadSpecifyFileFromZip(string, string) public static byte[] ReadSpecifyFileFromZip(string path, string fileName) 参数 path string fileName string 返回 byte[] SearchJavaMFT(string) public List<string> SearchJavaMFT(string path) 参数 path string 返回 List<string> SearchMinecraftDir() public List<string> SearchMinecraftDir() 返回 List<string> SearchVersions(string) public List<DataDetails.Version> SearchVersions(string GameDir) 参数 GameDir string 返回 List<DataDetails.Version> SearchVersionsFast(string) public List<string> SearchVersionsFast(string GameDir) 参数 GameDir string 返回 List<string> Unzip(string, string) public static bool Unzip(string zipFilePath, string targetDir) 参数 zipFilePath string targetDir string 返回 bool VerifyFileSha1(string, string) public static bool VerifyFileSha1(string filePath, string expectedHash) 参数 filePath string expectedHash string 返回 bool"
+  },
+  "api/Qomicex_Core.Modules.Tools.html": {
+    "href": "api/Qomicex_Core.Modules.Tools.html",
+    "title": "Qomicex_Core.Modules.Tools 命名空间 | Qomicex Core Docs",
+    "summary": "Qomicex_Core.Modules.Tools 命名空间 类 MainTools MainTools.State"
+  },
+  "api/Qomicex_Core.html": {
+    "href": "api/Qomicex_Core.html",
+    "title": "Qomicex_Core 命名空间 | Qomicex Core Docs",
+    "summary": "Qomicex_Core 命名空间 类 DataDetails DataDetails.Account DataDetails.Java DataDetails.Launcher DataDetails.Launcher.WindowSize DataDetails.Version"
+  },
+  "articles/Account.html": {
+    "href": "articles/Account.html",
+    "title": "Account | Qomicex Core Docs",
+    "summary": "Account Account包含多个类,为 Qomicex Core的核心功能之一，负责处理Minecraft账户登录相关的工作。 Microsoft类 Microsoft 类负责微软账户登录相关的工作。 你可以点击这里查看详细方法列表 使用示例 警告 该类需要在使用前构造时传入你的Azure门户ID。 var ms = new Qomicex_Core.Modules.Account.Microsoft(\"你的应用ID\"); 使用微软OAuth登录Minecraft正版账户 using Qomicex_Core.Modules.Account.Microsoft; //注册类 var ms = new Microsoft(\"你的门户ID\"); //开始OAuth登录 OAuthResponse oauth = await ms.OAuthLogin(); //创建一个计时器，用于判断登录是否超时 var stopwatch = Stopwatch.StartNew(); //将用户代码复制到剪切板以便用户登录时粘贴 Clipboard.SetText(oauth.UserCode); MessageBox.Show($\"您的用户代码 {oauth.UserCode} 已复制到剪切板\"); //打开用户验证页面 Process.Start(new ProcessStartInfo { FileName = oauth.VerificationUri, UseShellExecute = true }); //初始化登录状态字典 Dictionary<string, string> state = new Dictionary<string, string>(); //启用循环轮询用户登录状态,当超时或获取到access_token时停止 while (stopwatch.Elapsed.TotalSeconds < oauth.ExpiresIn) { //获取用户登录状态 state = await ms.GetUserAuthorizationState(oauth); //检查返回的状态字典 if (state.ContainsKey(\"error\")) { //字典存在错误信息 string err = state[\"error\"]; ////如果错误是等待授权或轮询过快，则继续等待 if (!(err == \"authorization_pending\" || err == \"slow_down\")) { MessageBox.Show($\"登录失败: {err}\", \"错误\", MessageBoxButton.OK, MessageBoxImage.Error); break; } //等待指定的时间后继续轮询 System.Threading.Thread.Sleep(oauth.Interval * 1000); } else if (state.ContainsKey(\"access_token\")) { //如果存在access_token键则登录成功，跳出循环 break; } else { //处理其它错误 MessageBox.Show($\"登录失败:\\n{state[\"error\"]}\", \"提示\", MessageBoxButton.OK, MessageBoxImage.Error); break; } } //登录成功后停止计时器 stopwatch.Stop(); //获取用户信息 //当登录成功后,状态字典中会包含access_token和refresh_token var userInfo = await ms.GetUserInfo(state[\"access_token\"], state[\"refresh_token\"]); MessageBox.Show($\"登录成功！\\nName: {userInfo.Name}\\nUuid: {userInfo.Uuid}\\nToken: {userInfo.Token}\", \"成功\", MessageBoxButton.OK, MessageBoxImage.Information); 刷新微软登录令牌 using Qomicex_Core.Modules.Account.Microsoft; //注册类 var ms = new Microsoft(\"你的门户ID\"); //刷新令牌 var userInfo = await ms.RefreshUserInfo(refresh_token);"
+  },
+  "articles/Account/Microsoft.html": {
+    "href": "articles/Account/Microsoft.html",
+    "title": "Microsoft 类 | Qomicex Core Docs",
+    "summary": "Microsoft 类 Microsoft 类负责微软账户登录相关的工作。 警告 该类需要在使用前构造时传入你的Azure门户。 var ms = new Qomicex_Core.Modules.Account.Microsoft(\"你的应用ID\"); 方法列表 Oauth登录 方法 OAuthLogin 返回值类型 Task&ltOAuthResponse&gt 参数 参数类型 描述 获取用户验证状态 方法 GetUserAuthorizationState 返回值类型 Task&ltDictionary&ltstring, string&gt&gt 参数 参数类型 描述 oAuthResponse OAuthResponse 微软登录结果信息 这里的返回值是一个字典，包含了用户的验证状态信息。 当登录成功时，字典中会包含以下键值对： access_token: 用户的访问令牌 refresh_token: 用户的刷新令牌 这两个令牌用于后续的API调用和用户信息获取。 当登录没有成功时，字典中会包含以下键值对： error: 错误信息 获取用户账户信息 方法 GetUserInfo 返回值类型 Account 参数 参数类型 描述 accessToken string 微软AccessToken refresh_token string 微软RefreshToken 刷新用户账户信息 方法 RefreshUserInfo 返回值类型 Account 参数 参数类型 描述 refresh_token string 微软RefreshToken"
+  },
+  "articles/DataDetails.html": {
+    "href": "articles/DataDetails.html",
+    "title": "类型列表 | Qomicex Core Docs",
+    "summary": "类型列表 这里是Qomicex Core中所有的的类型列表。 LauncherParam 该类型派生自Launch类，用于储存游戏启动的必要参数。 名称 类型 描述 GameDir string 游戏目录 LauncherName string 启动器名称 Java Java Java信息 FullScreen bool 是否全屏 Width string 游戏窗口宽度，默认854 Height string 游戏窗口高度，默认480 ... ... 同Launch Account 名称 类型 描述 Name string 用户名称 Uuid string 用户唯一标识符（UUID） Token string 登录令牌 AccessToken string 访问令牌，默认值为 \"0\" RefreshToken string 用于刷新访问令牌 LoginMethod string 登录方式，如 \"Legacy\" Java 类型用于储存Java信息 名称 类型 描述 Name string 名称 Path string 路径 Version string 版本号 VersionID int 版本标识符 Type string 类型 Arch string 架构（如 x64） Launch 用于储存游戏启动的必要参数。 名称 类型 描述 Account Account 用户账户信息 Java Java Java 环境信息 WindowSize.Width string 游戏窗口宽度，默认 854 WindowSize.height string 游戏窗口高度，默认 480 DevideVersion bool 版本隔离 AdditionalParam string 启动器附加参数 Version string 启动器指定版本号 MaxMemory string 最大分配内存，如 \"4096\" Version 储存Minecraft版本信息的类型。 名称 类型 描述 GameDir string 游戏根目录路径 Name string 版本名称 Type string[] ModLoader类型标签，如 [\"OptiFine-{version}\", \"Forge-{version}\"] GameVersion string 游戏版本号，如 \"1.20.1\" VersionDir string 版本文件夹路径 State string 当前状态，如 \"Available\" StateDescribe string 状态描述，如 \"Everything is OK\" OAuthResponse 名称 类型 描述 DeviceCode string 设备授权码，用于设备端轮询授权状态 UserCode string 用户输入的验证码，用于在验证页面完成授权 VerificationUri string 用户访问的验证地址，用于输入验证码完成授权 ExpiresIn int 授权码的有效时间（秒） Interval int 轮询授权状态的时间间隔（秒） State MainTools 中的用于存储状态的类型。 名称 类型 描述 Name string 当前状态，如 \"Available\",\"Error\",\"Warn\" Describe string 状态描述，如 \"Everything is OK\""
+  },
+  "articles/Installer.html": {
+    "href": "articles/Installer.html",
+    "title": "| Qomicex Core Docs",
+    "summary": ""
+  },
+  "articles/Installer/FabricInstaller.html": {
+    "href": "articles/Installer/FabricInstaller.html",
+    "title": "| Qomicex Core Docs",
+    "summary": ""
+  },
+  "articles/Installer/ForgeInstaller.html": {
+    "href": "articles/Installer/ForgeInstaller.html",
+    "title": "| Qomicex Core Docs",
+    "summary": ""
+  },
+  "articles/Installer/InstallerBase.html": {
+    "href": "articles/Installer/InstallerBase.html",
+    "title": "| Qomicex Core Docs",
+    "summary": ""
+  },
+  "articles/Installer/LiteLoaderInstaller.html": {
+    "href": "articles/Installer/LiteLoaderInstaller.html",
+    "title": "| Qomicex Core Docs",
+    "summary": ""
+  },
+  "articles/Installer/NeoForgeInstaller.html": {
+    "href": "articles/Installer/NeoForgeInstaller.html",
+    "title": "| Qomicex Core Docs",
+    "summary": ""
+  },
+  "articles/Installer/OptiFineInstaller.html": {
+    "href": "articles/Installer/OptiFineInstaller.html",
+    "title": "| Qomicex Core Docs",
+    "summary": ""
+  },
+  "articles/Installer/QuiltInstaller.html": {
+    "href": "articles/Installer/QuiltInstaller.html",
+    "title": "| Qomicex Core Docs",
+    "summary": ""
+  },
+  "articles/Installer/VanillaInstaller.html": {
+    "href": "articles/Installer/VanillaInstaller.html",
+    "title": "| Qomicex Core Docs",
+    "summary": ""
+  },
+  "articles/Launch.html": {
+    "href": "articles/Launch.html",
+    "title": "Launch | Qomicex Core Docs",
+    "summary": "Launch Launch 类为 Qomicex Core的核心类之一，负责处理Minecraft启动相关的工作。 你可以点击这里查看详细方法列表 调用示例 启动游戏 //Example"
+  },
+  "articles/Launch/Launch.html": {
+    "href": "articles/Launch/Launch.html",
+    "title": "Launch | Qomicex Core Docs",
+    "summary": "Launch Launch 类为 Qomicex Core的核心类之一，负责处理Minecraft启动相关的工作。 方法列表 启动游戏 方法 Launch 返回值类型 bool 参数 参数类型 描述 param LauncherParam 游戏启动的必要参数 生成启动参数 方法 SelectParam 返回值类型 string 参数 参数类型 描述 param LauncherParam 游戏启动的必要参数 解压Natives 方法 UnzipNatives 返回值类型 bool 参数 参数类型 描述 jsonPath string 游戏启动的必要参数 minecraftPath string 游戏启动的必要参数 versionPath string 游戏启动的必要参数 解压Natives(异步) 方法 UnzipNativesAsync 返回值类型 Task<bool> 参数 参数类型 描述 jsonPath string 游戏启动的必要参数 minecraftPath string 游戏启动的必要参数 versionPath string 游戏启动的必要参数"
+  },
+  "articles/Sources.html": {
+    "href": "articles/Sources.html",
+    "title": "| Qomicex Core Docs",
+    "summary": ""
+  },
+  "articles/Sources/Expansion.html": {
+    "href": "articles/Sources/Expansion.html",
+    "title": "| Qomicex Core Docs",
+    "summary": ""
+  },
+  "articles/Sources/Expansion/CurseForge/CurseForgeBase.html": {
+    "href": "articles/Sources/Expansion/CurseForge/CurseForgeBase.html",
+    "title": "| Qomicex Core Docs",
+    "summary": ""
+  },
+  "articles/Sources/Expansion/CurseForge/DataPacks.html": {
+    "href": "articles/Sources/Expansion/CurseForge/DataPacks.html",
+    "title": "| Qomicex Core Docs",
+    "summary": ""
+  },
+  "articles/Sources/Expansion/CurseForge/Modpacks.html": {
+    "href": "articles/Sources/Expansion/CurseForge/Modpacks.html",
+    "title": "| Qomicex Core Docs",
+    "summary": ""
+  },
+  "articles/Sources/Expansion/CurseForge/Mods.html": {
+    "href": "articles/Sources/Expansion/CurseForge/Mods.html",
+    "title": "| Qomicex Core Docs",
+    "summary": ""
+  },
+  "articles/Sources/Expansion/CurseForge/ResourcePacks.html": {
+    "href": "articles/Sources/Expansion/CurseForge/ResourcePacks.html",
+    "title": "| Qomicex Core Docs",
+    "summary": ""
+  },
+  "articles/Sources/Expansion/CurseForge/Shaders.html": {
+    "href": "articles/Sources/Expansion/CurseForge/Shaders.html",
+    "title": "| Qomicex Core Docs",
+    "summary": ""
+  },
+  "articles/Sources/Expansion/CurseForge/Worlds.html": {
+    "href": "articles/Sources/Expansion/CurseForge/Worlds.html",
+    "title": "| Qomicex Core Docs",
+    "summary": ""
+  },
+  "articles/Sources/Local.html": {
+    "href": "articles/Sources/Local.html",
+    "title": "| Qomicex Core Docs",
+    "summary": ""
+  },
+  "articles/Sources/Minecraft.html": {
+    "href": "articles/Sources/Minecraft.html",
+    "title": "| Qomicex Core Docs",
+    "summary": ""
+  },
+  "articles/Sources/ModLoader.html": {
+    "href": "articles/Sources/ModLoader.html",
+    "title": "| Qomicex Core Docs",
+    "summary": ""
+  },
+  "articles/Tools.html": {
+    "href": "articles/Tools.html",
+    "title": "Tools | Qomicex Core Docs",
+    "summary": "Tools Tools 为Qomicex Core 包含多个类，负责提供多种实用功能。 类列表 你可以下方超链接查看详细方法列表 MainTools类 MFTTools类 调用示范 生成离线UUID MainTools tools = new MainTools(); string uuid = tools.NameToUuid({用户名});"
+  },
+  "articles/Tools/MFTTools.html": {
+    "href": "articles/Tools/MFTTools.html",
+    "title": "| Qomicex Core Docs",
+    "summary": ""
+  },
+  "articles/Tools/MainTools.html": {
+    "href": "articles/Tools/MainTools.html",
+    "title": "MainTools | Qomicex Core Docs",
+    "summary": "MainTools MainTools 类为Tools 类中的主要工具类 方法列表 生成离线UUID 方法 NameToUuid 返回值类型 string 参数 参数类型 描述 name string 玩家名称，用于生成离线模式UUID 获取最优内存 方法 GetOptimalMemory 返回值类型 long 参数 参数类型 描述 percentage double 内存占比（默认0.6，即60%），计算可用内存的指定百分比（单位：MB） 是否为64位系统 方法 Is64 返回值类型 bool 参数 参数类型 描述 无参数 快速获取有效 Minecraft 版本列表 方法 SearchVersionsFast 返回值类型 List<string> 参数 参数类型 描述 GameDir string Minecraft游戏目录路径，仅返回存在对应.json文件的版本名称 获取有效的 Minecraft 版本列表 此方法会在获取版本列表后获取ModLoader信息，验证Json是否正常等后返回DataDetails.Version类型 方法 SearchVersions 返回值类型 List<DataDetails.Version> 参数 参数类型 描述 GameDir string Minecraft游戏目录路径 解压文件 方法 Unzip 返回值类型 bool 参数 参数类型 描述 zipFilePath string 压缩包文件路径 targetDir string 解压目标目录 删除指定后缀外的文件 方法 DeleteExcept 返回值类型 bool 参数 参数类型 描述 folderPath string 目标文件夹路径 keepSuffix string 需要保留的文件后缀（如.txt） 获取Mod加载器类型 方法 GetModLoaderType 返回值类型 string[] 参数 参数类型 描述 Version string Minecraft版本名称 GameDir string Minecraft游戏目录路径，用于读取版本.json文件 从Zip压缩包提取指定文件夹 方法 ExtractFolderFromZip 返回值类型 List<string> 参数 参数类型 描述 zipPath string 压缩包路径 targetFolderInZip string 压缩包内需要提取的文件夹名称 outputDirectory string 提取到的目标目录 检查版本可用性 方法 CheckVersionAvailablity 返回值类型 State 参数 参数类型 描述 GameDir string Minecraft游戏目录路径 Version string 需要检查的版本名称 检查是否为管理员权限 方法 IsAdministrator 返回值类型 bool 参数 参数类型 描述 无参数 验证文件 SHA1 哈希 方法 VerifyFileSha1 返回值类型 bool 参数 参数类型 描述 filePath string 需要验证的文件路径 expectedHash string 预期的SHA1哈希值（小写字符串） 搜索 Minecraft 目录 方法 SearchMinecraftDir 返回值类型 List<string> 参数 参数类型 描述 无参数 从Zip压缩包读取指定文件 方法 ReadSpecifyFileFromZip 返回值类型 byte[] 参数 参数类型 描述 path string 压缩包文件路径 fileName string 需要读取的压缩包内文件名称"
+  },
+  "getting-started.html": {
+    "href": "getting-started.html",
+    "title": "快速开始 | Qomicex Core Docs",
+    "summary": "快速开始 Qomicex Core的开发以模块化为核心理念，旨在提供一个灵活且可扩展的框架。以下是快速开始的指南，帮助你快速上手。 您需要保证您项目的 dotNET 框架至少运行在 .NET 6.0 及更高的版本当中以满足。 目前受支持的 .NET 版本： .NET 8.0 警告 我们自项目起始就没有考虑对旧版本.NET Core的支持，如果核心由于.NET 运行时出现问题，请更新至.NET 8.0尝试。 引用核心 要开始使用Qomicex Core，你需要在你的项目中引用核心库。 1️⃣ 创建本地包文件夹 K:\\NuGetPackages\\ 将.nupkg 文件放入该目录。 2️⃣ 在项目中添加本地源 ✅ Visual Studio 中操作： 打开工具 → 选项 → NuGet 包管理器 → 包源 点击“添加”按钮 名称：LocalPackages 源路径：K:\\NuGetPackages ✅ 或者修改 nuget.config 文件： <configuration> <packageSources> <add key=\"LocalPackages\" value=\"K:\\NuGetPackages\" /> </packageSources> </configuration> 安装本地包 在项目中打开 NuGet 管理器，选择你刚添加的源，然后安装对应的包。 或者使用命令行： dotnet add package YourPackageName --source \"K:\\NuGetPackages\" 启动游戏 你可以用Launch方法填写必要参数启动游戏： using Qomicex_Core.Modules.Launcher;//引用启动模块 var launcher = new Launcher(); launcher.Launch(new Launcher.LauncherParam { GameDir = {.minecraft游戏目录}, Version = {你要启动的游戏版本}, Java = new Qomicex_Core.DataDetails.Java { Path = Java路径, },//Java信息 Account = new Qomicex_Core.DataDetails.Account { Name = Name, },//用户信息 LauncherName = \"§b Qomicex Minecraft Launcher\",//启动器名称 MaxMemory = \"2048\", //游戏最大内存 });"
+  },
+  "index.html": {
+    "href": "index.html",
+    "title": "欢迎来到 Qomicex Docs - HOMEPAGE. | Qomicex Core Docs",
+    "summary": "欢迎来到 Qomicex Docs - HOMEPAGE. 这是 Qomicex Core 的文档主页，旨在为开发者提供一个清晰的起点，帮助你快速了解和使用 Qomicex Core 框架。 快速开始: 快速开始 - 了解如何在你的项目中引用 Qomicex Core，并启动你的第一个游戏实例。 介绍 - 了解如 Qomicex Core 并查看详细文档 自动文档 - 自动生成的 API 文档，提供了所有类和方法的详细信息。"
+  },
+  "introduction.html": {
+    "href": "introduction.html",
+    "title": "导论 | Qomicex Core Docs",
+    "summary": "导论 Qomicex Core 是一个简单、快速、开箱即用的C# Minecraft启动核心,主要开发目的是为Qomicex Minecraft Launcher提供功能支持，启动器大部分核心功能都会在Core中实现 主要功能文档 快速开始 Launch Account Tools Sources Installer 数据结构"
+  },
+  "templates/README.html": {
+    "href": "templates/README.html",
+    "title": "| Qomicex Core Docs",
+    "summary": "This folder contains the source code for website themes used by docfx.exe."
+  }
+}

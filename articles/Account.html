@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="utf-8">
+      <title>Account | Qomicex Core Docs </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Account | Qomicex Core Docs ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/TheMyceliumOfAntan/Qomicex-Project/blob/master/Qomicex.Core.Docs/articles/Account.md/#L1">
+      <meta name="loc:inThisArticle" content="本文内容">
+      <meta name="loc:searchResultsCount" content="找到{count}个“{query}”的搜索结果">
+      <meta name="loc:searchNoResults" content="没有找到“{query}”的搜索结果">
+      <meta name="loc:tocFilter" content="按标题筛选">
+      <meta name="loc:nextArticle" content="下一篇">
+      <meta name="loc:prevArticle" content="上一篇">
+      <meta name="loc:themeLight" content="白天">
+      <meta name="loc:themeDark" content="夜晚">
+      <meta name="loc:themeAuto" content="自动">
+      <meta name="loc:changeTheme" content="切换主题">
+      <meta name="loc:copy" content="复制">
+      <meta name="loc:downloadPdf" content="下载 PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Qomicex Core Docs">
+            Qomicex Core Docs
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="搜索" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="account">Account</h1>
+
+<p>Account包含多个类,为 Qomicex Core的核心功能之一，负责处理Minecraft账户登录相关的工作。</p>
+<h2 id="microsoft类">Microsoft类</h2>
+<p>Microsoft 类负责微软账户登录相关的工作。</p>
+<p>你可以点击<a href="Account/Microsoft.html">这里</a>查看详细方法列表</p>
+<h3 id="使用示例">使用示例</h3>
+<div class="WARNING">
+<h5>警告</h5>
+<p>该类需要在使用前构造时传入你的Azure门户ID。</p>
+</div>
+<pre><code class="lang-csharp">var ms = new Qomicex_Core.Modules.Account.Microsoft(&quot;你的应用ID&quot;);
+</code></pre>
+<h4 id="使用微软oauth登录minecraft正版账户">使用微软OAuth登录Minecraft正版账户</h4>
+<pre><code class="lang-csharp">using Qomicex_Core.Modules.Account.Microsoft;
+//注册类
+var ms = new Microsoft(&quot;你的门户ID&quot;);
+
+//开始OAuth登录
+OAuthResponse oauth = await ms.OAuthLogin();
+
+//创建一个计时器，用于判断登录是否超时
+var stopwatch = Stopwatch.StartNew();
+
+//将用户代码复制到剪切板以便用户登录时粘贴
+Clipboard.SetText(oauth.UserCode);
+
+MessageBox.Show($&quot;您的用户代码 {oauth.UserCode} 已复制到剪切板&quot;);
+
+//打开用户验证页面
+Process.Start(new ProcessStartInfo
+{
+    FileName = oauth.VerificationUri,
+    UseShellExecute = true
+});
+
+//初始化登录状态字典
+Dictionary&lt;string, string&gt; state = new Dictionary&lt;string, string&gt;();
+
+//启用循环轮询用户登录状态,当超时或获取到access_token时停止
+while (stopwatch.Elapsed.TotalSeconds &lt; oauth.ExpiresIn)
+{
+    //获取用户登录状态
+    state = await ms.GetUserAuthorizationState(oauth);
+    //检查返回的状态字典
+    if (state.ContainsKey(&quot;error&quot;))
+    {
+        //字典存在错误信息
+        string err = state[&quot;error&quot;];
+
+        ////如果错误是等待授权或轮询过快，则继续等待
+        if (!(err == &quot;authorization_pending&quot; || err == &quot;slow_down&quot;))
+        {
+            MessageBox.Show($&quot;登录失败: {err}&quot;, &quot;错误&quot;, MessageBoxButton.OK, MessageBoxImage.Error);
+            break;
+        }
+
+        //等待指定的时间后继续轮询
+        System.Threading.Thread.Sleep(oauth.Interval * 1000);
+    }
+    else if (state.ContainsKey(&quot;access_token&quot;))
+    {
+        //如果存在access_token键则登录成功，跳出循环
+        break;
+    }
+    else
+    {
+        //处理其它错误
+        MessageBox.Show($&quot;登录失败:\n{state[&quot;error&quot;]}&quot;, &quot;提示&quot;, MessageBoxButton.OK, MessageBoxImage.Error);
+        break;
+    }
+}
+//登录成功后停止计时器
+stopwatch.Stop();
+
+//获取用户信息
+//当登录成功后,状态字典中会包含access_token和refresh_token
+var userInfo = await ms.GetUserInfo(state[&quot;access_token&quot;], state[&quot;refresh_token&quot;]);
+
+MessageBox.Show($&quot;登录成功！\nName: {userInfo.Name}\nUuid: {userInfo.Uuid}\nToken: {userInfo.Token}&quot;, &quot;成功&quot;, MessageBoxButton.OK, MessageBoxImage.Information);
+
+</code></pre>
+<h4 id="刷新微软登录令牌">刷新微软登录令牌</h4>
+<pre><code class="lang-csharp">using Qomicex_Core.Modules.Account.Microsoft;
+
+//注册类
+var ms = new Microsoft(&quot;你的门户ID&quot;);
+
+//刷新令牌
+var userInfo = await ms.RefreshUserInfo(refresh_token);
+</code></pre>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/TheMyceliumOfAntan/Qomicex-Project/blob/master/Qomicex.Core.Docs/articles/Account.md/#L1" class="edit-link">编辑本文</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

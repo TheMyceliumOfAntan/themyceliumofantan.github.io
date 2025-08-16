@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="utf-8">
+      <title>快速开始 | Qomicex Core Docs </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="快速开始 | Qomicex Core Docs ">
+      
+      
+      <link rel="icon" href="favicon.ico">
+      <link rel="stylesheet" href="public/docfx.min.css">
+      <link rel="stylesheet" href="public/main.css">
+      <meta name="docfx:navrel" content="toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/TheMyceliumOfAntan/Qomicex-Project/blob/master/Qomicex.Core.Docs/getting-started.md/#L1">
+      <meta name="loc:inThisArticle" content="本文内容">
+      <meta name="loc:searchResultsCount" content="找到{count}个“{query}”的搜索结果">
+      <meta name="loc:searchNoResults" content="没有找到“{query}”的搜索结果">
+      <meta name="loc:tocFilter" content="按标题筛选">
+      <meta name="loc:nextArticle" content="下一篇">
+      <meta name="loc:prevArticle" content="上一篇">
+      <meta name="loc:themeLight" content="白天">
+      <meta name="loc:themeDark" content="夜晚">
+      <meta name="loc:themeAuto" content="自动">
+      <meta name="loc:changeTheme" content="切换主题">
+      <meta name="loc:copy" content="复制">
+      <meta name="loc:downloadPdf" content="下载 PDF">
+
+      <script type="module" src="./public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="index.html">
+            <img id="logo" class="svg" src="logo.svg" alt="Qomicex Core Docs">
+            Qomicex Core Docs
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="搜索" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+
+      <div class="content">
+        <div class="actionbar">
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="快速开始">快速开始</h1>
+
+<p>Qomicex Core的开发以模块化为核心理念，旨在提供一个灵活且可扩展的框架。以下是快速开始的指南，帮助你快速上手。</p>
+<p>您需要保证您项目的 dotNET 框架至少运行在 .NET 6.0 及更高的版本当中以满足。</p>
+<p>目前受支持的 .NET 版本：</p>
+<p>.NET 8.0</p>
+<div class="WARNING">
+<h5>警告</h5>
+<p>我们自项目起始就没有考虑对旧版本.NET Core的支持，如果核心由于.NET 运行时出现问题，请更新至.NET 8.0尝试。</p>
+</div>
+<h2 id="引用核心">引用核心</h2>
+<p>要开始使用Qomicex Core，你需要在你的项目中引用核心库。</p>
+<p>1️⃣ 创建本地包文件夹</p>
+<pre><code class="lang-bash">K:\NuGetPackages\
+</code></pre>
+<p>将.nupkg 文件放入该目录。</p>
+<p>2️⃣ 在项目中添加本地源</p>
+<p>✅ Visual Studio 中操作：
+打开工具 → 选项 → NuGet 包管理器 → 包源</p>
+<p>点击“添加”按钮</p>
+<p>名称：LocalPackages</p>
+<p>源路径：K:\NuGetPackages</p>
+<p>✅ 或者修改 nuget.config 文件：</p>
+<pre><code class="lang-xml">&lt;configuration&gt;
+  &lt;packageSources&gt;
+    &lt;add key=&quot;LocalPackages&quot; value=&quot;K:\NuGetPackages&quot; /&gt;
+  &lt;/packageSources&gt;
+&lt;/configuration&gt;
+</code></pre>
+<p>安装本地包
+在项目中打开 NuGet 管理器，选择你刚添加的源，然后安装对应的包。</p>
+<p>或者使用命令行：</p>
+<pre><code class="lang-bash">dotnet add package YourPackageName --source &quot;K:\NuGetPackages&quot;
+</code></pre>
+<h2 id="启动游戏">启动游戏</h2>
+<p>你可以用Launch方法填写必要参数启动游戏：</p>
+<pre><code class="lang-csharp">using Qomicex_Core.Modules.Launcher;//引用启动模块
+var launcher = new Launcher();
+launcher.Launch(new Launcher.LauncherParam
+    {
+        GameDir = {.minecraft游戏目录},
+        Version = {你要启动的游戏版本},
+        Java = new Qomicex_Core.DataDetails.Java
+        {
+            Path = Java路径,
+        },//Java信息
+        Account = new Qomicex_Core.DataDetails.Account
+        {
+            Name = Name,
+        },//用户信息
+        LauncherName = &quot;§b Qomicex Minecraft Launcher&quot;,//启动器名称
+        MaxMemory = &quot;2048&quot;, //游戏最大内存
+    });
+</code></pre>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/TheMyceliumOfAntan/Qomicex-Project/blob/master/Qomicex.Core.Docs/getting-started.md/#L1" class="edit-link">编辑本文</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

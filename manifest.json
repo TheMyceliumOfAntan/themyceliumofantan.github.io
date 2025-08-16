@@ -1,0 +1,1858 @@
+{
+  "source_base_path": "K:/Deskep/Works/CS/Qomicex Project/Qomicex.Core.Docs",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Qomicex_Core.DataDetails.Account.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Qomicex_Core.DataDetails.Account.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Qomicex_Core.DataDetails.Account",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Qomicex_Core.DataDetails.Java.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Qomicex_Core.DataDetails.Java.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Qomicex_Core.DataDetails.Java",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Qomicex_Core.DataDetails.Launcher.WindowSize.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Qomicex_Core.DataDetails.Launcher.WindowSize.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Qomicex_Core.DataDetails.Launcher.WindowSize",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Qomicex_Core.DataDetails.Launcher.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Qomicex_Core.DataDetails.Launcher.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Qomicex_Core.DataDetails.Launcher",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Qomicex_Core.DataDetails.Version.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Qomicex_Core.DataDetails.Version.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Qomicex_Core.DataDetails.Version",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Qomicex_Core.DataDetails.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Qomicex_Core.DataDetails.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Qomicex_Core.DataDetails",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Qomicex_Core.Modules.Account.Microsoft.OAuthResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Qomicex_Core.Modules.Account.Microsoft.OAuthResponse.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Qomicex_Core.Modules.Account.Microsoft.OAuthResponse",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Qomicex_Core.Modules.Account.Microsoft.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Qomicex_Core.Modules.Account.Microsoft.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Qomicex_Core.Modules.Account.Microsoft",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Qomicex_Core.Modules.Account.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Qomicex_Core.Modules.Account.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Qomicex_Core.Modules.Account",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Qomicex_Core.Modules.Installer.FabricInstaller.Library.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Qomicex_Core.Modules.Installer.FabricInstaller.Library.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Qomicex_Core.Modules.Installer.FabricInstaller.Library",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Qomicex_Core.Modules.Installer.FabricInstaller.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Qomicex_Core.Modules.Installer.FabricInstaller.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Qomicex_Core.Modules.Installer.FabricInstaller",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Qomicex_Core.Modules.Installer.ForgeInstaller.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Qomicex_Core.Modules.Installer.ForgeInstaller.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Qomicex_Core.Modules.Installer.ForgeInstaller",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Qomicex_Core.Modules.Installer.InstallerBase.DownloadSource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Qomicex_Core.Modules.Installer.InstallerBase.DownloadSource.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Qomicex_Core.Modules.Installer.InstallerBase.DownloadSource",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Qomicex_Core.Modules.Installer.InstallerBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Qomicex_Core.Modules.Installer.InstallerBase.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Qomicex_Core.Modules.Installer.InstallerBase",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Qomicex_Core.Modules.Installer.LiteloaderInstaller.Artifact.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Qomicex_Core.Modules.Installer.LiteloaderInstaller.Artifact.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Qomicex_Core.Modules.Installer.LiteloaderInstaller.Artifact",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Qomicex_Core.Modules.Installer.LiteloaderInstaller.InstallProgress.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Qomicex_Core.Modules.Installer.LiteloaderInstaller.InstallProgress.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Qomicex_Core.Modules.Installer.LiteloaderInstaller.InstallProgress",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Qomicex_Core.Modules.Installer.LiteloaderInstaller.Library.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Qomicex_Core.Modules.Installer.LiteloaderInstaller.Library.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Qomicex_Core.Modules.Installer.LiteloaderInstaller.Library",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Qomicex_Core.Modules.Installer.LiteloaderInstaller.LibraryDownloadInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Qomicex_Core.Modules.Installer.LiteloaderInstaller.LibraryDownloadInfo.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Qomicex_Core.Modules.Installer.LiteloaderInstaller.LibraryDownloadInfo",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Qomicex_Core.Modules.Installer.LiteloaderInstaller.LiteLoaderInstaller.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Qomicex_Core.Modules.Installer.LiteloaderInstaller.LiteLoaderInstaller.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Qomicex_Core.Modules.Installer.LiteloaderInstaller.LiteLoaderInstaller",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Qomicex_Core.Modules.Installer.LiteloaderInstaller.LiteLoaderRemoteVersion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Qomicex_Core.Modules.Installer.LiteloaderInstaller.LiteLoaderRemoteVersion.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Qomicex_Core.Modules.Installer.LiteloaderInstaller.LiteLoaderRemoteVersion",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Qomicex_Core.Modules.Installer.LiteloaderInstaller.Version.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Qomicex_Core.Modules.Installer.LiteloaderInstaller.Version.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Qomicex_Core.Modules.Installer.LiteloaderInstaller.Version",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Qomicex_Core.Modules.Installer.LiteloaderInstaller.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Qomicex_Core.Modules.Installer.LiteloaderInstaller.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Qomicex_Core.Modules.Installer.LiteloaderInstaller",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Qomicex_Core.Modules.Installer.NeoForgeInstaller.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Qomicex_Core.Modules.Installer.NeoForgeInstaller.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Qomicex_Core.Modules.Installer.NeoForgeInstaller",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Qomicex_Core.Modules.Installer.QuiltInstaller.Library.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Qomicex_Core.Modules.Installer.QuiltInstaller.Library.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Qomicex_Core.Modules.Installer.QuiltInstaller.Library",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Qomicex_Core.Modules.Installer.QuiltInstaller.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Qomicex_Core.Modules.Installer.QuiltInstaller.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Qomicex_Core.Modules.Installer.QuiltInstaller",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Qomicex_Core.Modules.Installer.VanillaInstaller.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Qomicex_Core.Modules.Installer.VanillaInstaller.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Qomicex_Core.Modules.Installer.VanillaInstaller",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Qomicex_Core.Modules.Installer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Qomicex_Core.Modules.Installer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Qomicex_Core.Modules.Installer",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Qomicex_Core.Modules.Launcher.Launcher.LauncherParam.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Qomicex_Core.Modules.Launcher.Launcher.LauncherParam.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Qomicex_Core.Modules.Launcher.Launcher.LauncherParam",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Qomicex_Core.Modules.Launcher.Launcher.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Qomicex_Core.Modules.Launcher.Launcher.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Qomicex_Core.Modules.Launcher.Launcher",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Qomicex_Core.Modules.Launcher.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Qomicex_Core.Modules.Launcher.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Qomicex_Core.Modules.Launcher",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Qomicex_Core.Modules.Sources.Expansion.CurseForge.CurseForgeBase.AuthorMeta.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Qomicex_Core.Modules.Sources.Expansion.CurseForge.CurseForgeBase.AuthorMeta.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Qomicex_Core.Modules.Sources.Expansion.CurseForge.CurseForgeBase.AuthorMeta",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Qomicex_Core.Modules.Sources.Expansion.CurseForge.CurseForgeBase.CategoryMeta.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Qomicex_Core.Modules.Sources.Expansion.CurseForge.CurseForgeBase.CategoryMeta.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Qomicex_Core.Modules.Sources.Expansion.CurseForge.CurseForgeBase.CategoryMeta",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Qomicex_Core.Modules.Sources.Expansion.CurseForge.CurseForgeBase.CurseForgeDependenciesMeta.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Qomicex_Core.Modules.Sources.Expansion.CurseForge.CurseForgeBase.CurseForgeDependenciesMeta.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Qomicex_Core.Modules.Sources.Expansion.CurseForge.CurseForgeBase.CurseForgeDependenciesMeta",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Qomicex_Core.Modules.Sources.Expansion.CurseForge.CurseForgeBase.CurseForgeFilesMeta.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Qomicex_Core.Modules.Sources.Expansion.CurseForge.CurseForgeBase.CurseForgeFilesMeta.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Qomicex_Core.Modules.Sources.Expansion.CurseForge.CurseForgeBase.CurseForgeFilesMeta",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Qomicex_Core.Modules.Sources.Expansion.CurseForge.CurseForgeBase.CurseForgeInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Qomicex_Core.Modules.Sources.Expansion.CurseForge.CurseForgeBase.CurseForgeInfo.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Qomicex_Core.Modules.Sources.Expansion.CurseForge.CurseForgeBase.CurseForgeInfo",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Qomicex_Core.Modules.Sources.Expansion.CurseForge.CurseForgeBase.CurseForgeSearchResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Qomicex_Core.Modules.Sources.Expansion.CurseForge.CurseForgeBase.CurseForgeSearchResult.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Qomicex_Core.Modules.Sources.Expansion.CurseForge.CurseForgeBase.CurseForgeSearchResult",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Qomicex_Core.Modules.Sources.Expansion.CurseForge.CurseForgeBase.ModLoaderType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Qomicex_Core.Modules.Sources.Expansion.CurseForge.CurseForgeBase.ModLoaderType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Qomicex_Core.Modules.Sources.Expansion.CurseForge.CurseForgeBase.ModLoaderType",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Qomicex_Core.Modules.Sources.Expansion.CurseForge.CurseForgeBase.ScreenshotsMeta.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Qomicex_Core.Modules.Sources.Expansion.CurseForge.CurseForgeBase.ScreenshotsMeta.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Qomicex_Core.Modules.Sources.Expansion.CurseForge.CurseForgeBase.ScreenshotsMeta",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Qomicex_Core.Modules.Sources.Expansion.CurseForge.CurseForgeBase.SortField.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Qomicex_Core.Modules.Sources.Expansion.CurseForge.CurseForgeBase.SortField.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Qomicex_Core.Modules.Sources.Expansion.CurseForge.CurseForgeBase.SortField",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Qomicex_Core.Modules.Sources.Expansion.CurseForge.CurseForgeBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Qomicex_Core.Modules.Sources.Expansion.CurseForge.CurseForgeBase.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Qomicex_Core.Modules.Sources.Expansion.CurseForge.CurseForgeBase",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Qomicex_Core.Modules.Sources.Expansion.CurseForge.DataPacks.Category.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Qomicex_Core.Modules.Sources.Expansion.CurseForge.DataPacks.Category.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Qomicex_Core.Modules.Sources.Expansion.CurseForge.DataPacks.Category",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Qomicex_Core.Modules.Sources.Expansion.CurseForge.DataPacks.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Qomicex_Core.Modules.Sources.Expansion.CurseForge.DataPacks.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Qomicex_Core.Modules.Sources.Expansion.CurseForge.DataPacks",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Qomicex_Core.Modules.Sources.Expansion.CurseForge.Modpacks.Category.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Qomicex_Core.Modules.Sources.Expansion.CurseForge.Modpacks.Category.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Qomicex_Core.Modules.Sources.Expansion.CurseForge.Modpacks.Category",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Qomicex_Core.Modules.Sources.Expansion.CurseForge.Modpacks.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Qomicex_Core.Modules.Sources.Expansion.CurseForge.Modpacks.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Qomicex_Core.Modules.Sources.Expansion.CurseForge.Modpacks",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Qomicex_Core.Modules.Sources.Expansion.CurseForge.Mods.AuthorMeta.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Qomicex_Core.Modules.Sources.Expansion.CurseForge.Mods.AuthorMeta.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Qomicex_Core.Modules.Sources.Expansion.CurseForge.Mods.AuthorMeta",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Qomicex_Core.Modules.Sources.Expansion.CurseForge.Mods.Category.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Qomicex_Core.Modules.Sources.Expansion.CurseForge.Mods.Category.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Qomicex_Core.Modules.Sources.Expansion.CurseForge.Mods.Category",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Qomicex_Core.Modules.Sources.Expansion.CurseForge.Mods.CategoryMeta.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Qomicex_Core.Modules.Sources.Expansion.CurseForge.Mods.CategoryMeta.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Qomicex_Core.Modules.Sources.Expansion.CurseForge.Mods.CategoryMeta",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Qomicex_Core.Modules.Sources.Expansion.CurseForge.Mods.ModDependenciesMeta.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Qomicex_Core.Modules.Sources.Expansion.CurseForge.Mods.ModDependenciesMeta.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Qomicex_Core.Modules.Sources.Expansion.CurseForge.Mods.ModDependenciesMeta",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Qomicex_Core.Modules.Sources.Expansion.CurseForge.Mods.ModFilesMeta.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Qomicex_Core.Modules.Sources.Expansion.CurseForge.Mods.ModFilesMeta.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Qomicex_Core.Modules.Sources.Expansion.CurseForge.Mods.ModFilesMeta",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Qomicex_Core.Modules.Sources.Expansion.CurseForge.Mods.ModInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Qomicex_Core.Modules.Sources.Expansion.CurseForge.Mods.ModInfo.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Qomicex_Core.Modules.Sources.Expansion.CurseForge.Mods.ModInfo",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Qomicex_Core.Modules.Sources.Expansion.CurseForge.Mods.ModLoaderType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Qomicex_Core.Modules.Sources.Expansion.CurseForge.Mods.ModLoaderType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Qomicex_Core.Modules.Sources.Expansion.CurseForge.Mods.ModLoaderType",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Qomicex_Core.Modules.Sources.Expansion.CurseForge.Mods.ModSearchResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Qomicex_Core.Modules.Sources.Expansion.CurseForge.Mods.ModSearchResult.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Qomicex_Core.Modules.Sources.Expansion.CurseForge.Mods.ModSearchResult",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Qomicex_Core.Modules.Sources.Expansion.CurseForge.Mods.ScreenshotsMeta.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Qomicex_Core.Modules.Sources.Expansion.CurseForge.Mods.ScreenshotsMeta.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Qomicex_Core.Modules.Sources.Expansion.CurseForge.Mods.ScreenshotsMeta",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Qomicex_Core.Modules.Sources.Expansion.CurseForge.Mods.SortField.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Qomicex_Core.Modules.Sources.Expansion.CurseForge.Mods.SortField.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Qomicex_Core.Modules.Sources.Expansion.CurseForge.Mods.SortField",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Qomicex_Core.Modules.Sources.Expansion.CurseForge.Mods.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Qomicex_Core.Modules.Sources.Expansion.CurseForge.Mods.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Qomicex_Core.Modules.Sources.Expansion.CurseForge.Mods",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Qomicex_Core.Modules.Sources.Expansion.CurseForge.ResourcePacks.Category.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Qomicex_Core.Modules.Sources.Expansion.CurseForge.ResourcePacks.Category.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Qomicex_Core.Modules.Sources.Expansion.CurseForge.ResourcePacks.Category",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Qomicex_Core.Modules.Sources.Expansion.CurseForge.ResourcePacks.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Qomicex_Core.Modules.Sources.Expansion.CurseForge.ResourcePacks.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Qomicex_Core.Modules.Sources.Expansion.CurseForge.ResourcePacks",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Qomicex_Core.Modules.Sources.Expansion.CurseForge.Shaders.Category.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Qomicex_Core.Modules.Sources.Expansion.CurseForge.Shaders.Category.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Qomicex_Core.Modules.Sources.Expansion.CurseForge.Shaders.Category",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Qomicex_Core.Modules.Sources.Expansion.CurseForge.Shaders.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Qomicex_Core.Modules.Sources.Expansion.CurseForge.Shaders.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Qomicex_Core.Modules.Sources.Expansion.CurseForge.Shaders",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Qomicex_Core.Modules.Sources.Expansion.CurseForge.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Qomicex_Core.Modules.Sources.Expansion.CurseForge.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Qomicex_Core.Modules.Sources.Expansion.CurseForge",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Qomicex_Core.Modules.Sources.Expansion.Modrinth.DataPacks.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Qomicex_Core.Modules.Sources.Expansion.Modrinth.DataPacks.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Qomicex_Core.Modules.Sources.Expansion.Modrinth.DataPacks",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Qomicex_Core.Modules.Sources.Expansion.Modrinth.Modpacks.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Qomicex_Core.Modules.Sources.Expansion.Modrinth.Modpacks.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Qomicex_Core.Modules.Sources.Expansion.Modrinth.Modpacks",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Qomicex_Core.Modules.Sources.Expansion.Modrinth.ModrinthBase.DependenciesInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Qomicex_Core.Modules.Sources.Expansion.Modrinth.ModrinthBase.DependenciesInfo.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Qomicex_Core.Modules.Sources.Expansion.Modrinth.ModrinthBase.DependenciesInfo",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Qomicex_Core.Modules.Sources.Expansion.Modrinth.ModrinthBase.FileHashes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Qomicex_Core.Modules.Sources.Expansion.Modrinth.ModrinthBase.FileHashes.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Qomicex_Core.Modules.Sources.Expansion.Modrinth.ModrinthBase.FileHashes",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Qomicex_Core.Modules.Sources.Expansion.Modrinth.ModrinthBase.GalleryItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Qomicex_Core.Modules.Sources.Expansion.Modrinth.ModrinthBase.GalleryItem.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Qomicex_Core.Modules.Sources.Expansion.Modrinth.ModrinthBase.GalleryItem",
+      "Summary": "<p sourcefile=\"api/Qomicex_Core.Modules.Sources.Expansion.Modrinth.ModrinthBase.GalleryItem.yml\" sourcestartlinenumber=\"1\">表示Modrinth项目画廊中的单个图片项</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Qomicex_Core.Modules.Sources.Expansion.Modrinth.ModrinthBase.Index.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Qomicex_Core.Modules.Sources.Expansion.Modrinth.ModrinthBase.Index.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Qomicex_Core.Modules.Sources.Expansion.Modrinth.ModrinthBase.Index",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Qomicex_Core.Modules.Sources.Expansion.Modrinth.ModrinthBase.ModLoaderType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Qomicex_Core.Modules.Sources.Expansion.Modrinth.ModrinthBase.ModLoaderType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Qomicex_Core.Modules.Sources.Expansion.Modrinth.ModrinthBase.ModLoaderType",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Qomicex_Core.Modules.Sources.Expansion.Modrinth.ModrinthBase.ModrinthTag.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Qomicex_Core.Modules.Sources.Expansion.Modrinth.ModrinthBase.ModrinthTag.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Qomicex_Core.Modules.Sources.Expansion.Modrinth.ModrinthBase.ModrinthTag",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Qomicex_Core.Modules.Sources.Expansion.Modrinth.ModrinthBase.ProjectInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Qomicex_Core.Modules.Sources.Expansion.Modrinth.ModrinthBase.ProjectInfo.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Qomicex_Core.Modules.Sources.Expansion.Modrinth.ModrinthBase.ProjectInfo",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Qomicex_Core.Modules.Sources.Expansion.Modrinth.ModrinthBase.ProjectType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Qomicex_Core.Modules.Sources.Expansion.Modrinth.ModrinthBase.ProjectType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Qomicex_Core.Modules.Sources.Expansion.Modrinth.ModrinthBase.ProjectType",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Qomicex_Core.Modules.Sources.Expansion.Modrinth.ModrinthBase.ProjectVersionInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Qomicex_Core.Modules.Sources.Expansion.Modrinth.ModrinthBase.ProjectVersionInfo.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Qomicex_Core.Modules.Sources.Expansion.Modrinth.ModrinthBase.ProjectVersionInfo",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Qomicex_Core.Modules.Sources.Expansion.Modrinth.ModrinthBase.SearchResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Qomicex_Core.Modules.Sources.Expansion.Modrinth.ModrinthBase.SearchResult.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Qomicex_Core.Modules.Sources.Expansion.Modrinth.ModrinthBase.SearchResult",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Qomicex_Core.Modules.Sources.Expansion.Modrinth.ModrinthBase.SearchResultInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Qomicex_Core.Modules.Sources.Expansion.Modrinth.ModrinthBase.SearchResultInfo.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Qomicex_Core.Modules.Sources.Expansion.Modrinth.ModrinthBase.SearchResultInfo",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Qomicex_Core.Modules.Sources.Expansion.Modrinth.ModrinthBase.SupportType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Qomicex_Core.Modules.Sources.Expansion.Modrinth.ModrinthBase.SupportType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Qomicex_Core.Modules.Sources.Expansion.Modrinth.ModrinthBase.SupportType",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Qomicex_Core.Modules.Sources.Expansion.Modrinth.ModrinthBase.VersionFileInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Qomicex_Core.Modules.Sources.Expansion.Modrinth.ModrinthBase.VersionFileInfo.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Qomicex_Core.Modules.Sources.Expansion.Modrinth.ModrinthBase.VersionFileInfo",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Qomicex_Core.Modules.Sources.Expansion.Modrinth.ModrinthBase.VersionInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Qomicex_Core.Modules.Sources.Expansion.Modrinth.ModrinthBase.VersionInfo.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Qomicex_Core.Modules.Sources.Expansion.Modrinth.ModrinthBase.VersionInfo",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Qomicex_Core.Modules.Sources.Expansion.Modrinth.ModrinthBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Qomicex_Core.Modules.Sources.Expansion.Modrinth.ModrinthBase.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Qomicex_Core.Modules.Sources.Expansion.Modrinth.ModrinthBase",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Qomicex_Core.Modules.Sources.Expansion.Modrinth.Mods.Categories.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Qomicex_Core.Modules.Sources.Expansion.Modrinth.Mods.Categories.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Qomicex_Core.Modules.Sources.Expansion.Modrinth.Mods.Categories",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Qomicex_Core.Modules.Sources.Expansion.Modrinth.Mods.ModLoaderType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Qomicex_Core.Modules.Sources.Expansion.Modrinth.Mods.ModLoaderType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Qomicex_Core.Modules.Sources.Expansion.Modrinth.Mods.ModLoaderType",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Qomicex_Core.Modules.Sources.Expansion.Modrinth.Mods.ModSearchResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Qomicex_Core.Modules.Sources.Expansion.Modrinth.Mods.ModSearchResult.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Qomicex_Core.Modules.Sources.Expansion.Modrinth.Mods.ModSearchResult",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Qomicex_Core.Modules.Sources.Expansion.Modrinth.Mods.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Qomicex_Core.Modules.Sources.Expansion.Modrinth.Mods.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Qomicex_Core.Modules.Sources.Expansion.Modrinth.Mods",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Qomicex_Core.Modules.Sources.Expansion.Modrinth.ResourcePacks.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Qomicex_Core.Modules.Sources.Expansion.Modrinth.ResourcePacks.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Qomicex_Core.Modules.Sources.Expansion.Modrinth.ResourcePacks",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Qomicex_Core.Modules.Sources.Expansion.Modrinth.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Qomicex_Core.Modules.Sources.Expansion.Modrinth.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Qomicex_Core.Modules.Sources.Expansion.Modrinth",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Qomicex_Core.Modules.Sources.Expansion.Worlds.Category.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Qomicex_Core.Modules.Sources.Expansion.Worlds.Category.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Qomicex_Core.Modules.Sources.Expansion.Worlds.Category",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Qomicex_Core.Modules.Sources.Expansion.Worlds.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Qomicex_Core.Modules.Sources.Expansion.Worlds.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Qomicex_Core.Modules.Sources.Expansion.Worlds",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Qomicex_Core.Modules.Sources.Expansion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Qomicex_Core.Modules.Sources.Expansion.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Qomicex_Core.Modules.Sources.Expansion",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Qomicex_Core.Modules.Sources.Local.DownloadSource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Qomicex_Core.Modules.Sources.Local.DownloadSource.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Qomicex_Core.Modules.Sources.Local.DownloadSource",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Qomicex_Core.Modules.Sources.Local.DownloadSources.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Qomicex_Core.Modules.Sources.Local.DownloadSources.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Qomicex_Core.Modules.Sources.Local.DownloadSources",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Qomicex_Core.Modules.Sources.Local.MissFileData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Qomicex_Core.Modules.Sources.Local.MissFileData.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Qomicex_Core.Modules.Sources.Local.MissFileData",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Qomicex_Core.Modules.Sources.Local.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Qomicex_Core.Modules.Sources.Local.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Qomicex_Core.Modules.Sources.Local",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Qomicex_Core.Modules.Sources.Minecraft.VersionInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Qomicex_Core.Modules.Sources.Minecraft.VersionInfo.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Qomicex_Core.Modules.Sources.Minecraft.VersionInfo",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Qomicex_Core.Modules.Sources.Minecraft.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Qomicex_Core.Modules.Sources.Minecraft.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Qomicex_Core.Modules.Sources.Minecraft",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Qomicex_Core.Modules.Sources.Modloader.DownloadSource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Qomicex_Core.Modules.Sources.Modloader.DownloadSource.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Qomicex_Core.Modules.Sources.Modloader.DownloadSource",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Qomicex_Core.Modules.Sources.Modloader.DownloadSources.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Qomicex_Core.Modules.Sources.Modloader.DownloadSources.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Qomicex_Core.Modules.Sources.Modloader.DownloadSources",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Qomicex_Core.Modules.Sources.Modloader.LiteloaderVersionInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Qomicex_Core.Modules.Sources.Modloader.LiteloaderVersionInfo.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Qomicex_Core.Modules.Sources.Modloader.LiteloaderVersionInfo",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Qomicex_Core.Modules.Sources.Modloader.ModLoaderInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Qomicex_Core.Modules.Sources.Modloader.ModLoaderInfo.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Qomicex_Core.Modules.Sources.Modloader.ModLoaderInfo",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Qomicex_Core.Modules.Sources.Modloader.ModLoaderType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Qomicex_Core.Modules.Sources.Modloader.ModLoaderType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Qomicex_Core.Modules.Sources.Modloader.ModLoaderType",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Qomicex_Core.Modules.Sources.Modloader.NeoForgeVersionInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Qomicex_Core.Modules.Sources.Modloader.NeoForgeVersionInfo.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Qomicex_Core.Modules.Sources.Modloader.NeoForgeVersionInfo",
+      "Summary": "<p sourcefile=\"api/Qomicex_Core.Modules.Sources.Modloader.NeoForgeVersionInfo.yml\" sourcestartlinenumber=\"1\">NeoForge版本信息模型</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Qomicex_Core.Modules.Sources.Modloader.OptifineVersionInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Qomicex_Core.Modules.Sources.Modloader.OptifineVersionInfo.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Qomicex_Core.Modules.Sources.Modloader.OptifineVersionInfo",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Qomicex_Core.Modules.Sources.Modloader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Qomicex_Core.Modules.Sources.Modloader.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Qomicex_Core.Modules.Sources.Modloader",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Qomicex_Core.Modules.Sources.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Qomicex_Core.Modules.Sources.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Qomicex_Core.Modules.Sources",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Qomicex_Core.Modules.Tools.MainTools.State.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Qomicex_Core.Modules.Tools.MainTools.State.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Qomicex_Core.Modules.Tools.MainTools.State",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Qomicex_Core.Modules.Tools.MainTools.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Qomicex_Core.Modules.Tools.MainTools.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Qomicex_Core.Modules.Tools.MainTools",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Qomicex_Core.Modules.Tools.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Qomicex_Core.Modules.Tools.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Qomicex_Core.Modules.Tools",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Qomicex_Core.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Qomicex_Core.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Qomicex_Core",
+      "Summary": null
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/Account.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/Account.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/Account/Microsoft.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/Account/Microsoft.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/DataDetails.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/DataDetails.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/Installer.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/Installer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/Installer/FabricInstaller.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/Installer/FabricInstaller.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/Installer/ForgeInstaller.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/Installer/ForgeInstaller.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/Installer/InstallerBase.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/Installer/InstallerBase.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/Installer/LiteLoaderInstaller.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/Installer/LiteLoaderInstaller.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/Installer/NeoForgeInstaller.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/Installer/NeoForgeInstaller.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/Installer/OptiFineInstaller.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/Installer/OptiFineInstaller.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/Installer/QuiltInstaller.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/Installer/QuiltInstaller.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/Installer/VanillaInstaller.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/Installer/VanillaInstaller.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/Launch.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/Launch.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/Launch/Launch.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/Launch/Launch.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/Sources.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/Sources.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/Sources/Expansion.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/Sources/Expansion.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/Sources/Expansion/CurseForge/CurseForgeBase.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/Sources/Expansion/CurseForge/CurseForgeBase.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/Sources/Expansion/CurseForge/DataPacks.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/Sources/Expansion/CurseForge/DataPacks.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/Sources/Expansion/CurseForge/Modpacks.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/Sources/Expansion/CurseForge/Modpacks.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/Sources/Expansion/CurseForge/Mods.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/Sources/Expansion/CurseForge/Mods.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/Sources/Expansion/CurseForge/ResourcePacks.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/Sources/Expansion/CurseForge/ResourcePacks.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/Sources/Expansion/CurseForge/Shaders.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/Sources/Expansion/CurseForge/Shaders.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/Sources/Expansion/CurseForge/Worlds.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/Sources/Expansion/CurseForge/Worlds.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/Sources/Local.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/Sources/Local.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/Sources/Minecraft.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/Sources/Minecraft.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/Sources/ModLoader.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/Sources/ModLoader.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/Tools.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/Tools.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/Tools/MFTTools.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/Tools/MFTTools.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/Tools/MainTools.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/Tools/MainTools.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html"
+        },
+        ".json": {
+          "relative_path": "articles/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "getting-started.md",
+      "output": {
+        ".html": {
+          "relative_path": "getting-started.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "introduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "templates/README.md",
+      "output": {
+        ".html": {
+          "relative_path": "templates/README.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

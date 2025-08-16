@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="utf-8">
+      <title>类型列表 | Qomicex Core Docs </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="类型列表 | Qomicex Core Docs ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/TheMyceliumOfAntan/Qomicex-Project/blob/master/Qomicex.Core.Docs/articles/DataDetails.md/#L1">
+      <meta name="loc:inThisArticle" content="本文内容">
+      <meta name="loc:searchResultsCount" content="找到{count}个“{query}”的搜索结果">
+      <meta name="loc:searchNoResults" content="没有找到“{query}”的搜索结果">
+      <meta name="loc:tocFilter" content="按标题筛选">
+      <meta name="loc:nextArticle" content="下一篇">
+      <meta name="loc:prevArticle" content="上一篇">
+      <meta name="loc:themeLight" content="白天">
+      <meta name="loc:themeDark" content="夜晚">
+      <meta name="loc:themeAuto" content="自动">
+      <meta name="loc:changeTheme" content="切换主题">
+      <meta name="loc:copy" content="复制">
+      <meta name="loc:downloadPdf" content="下载 PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Qomicex Core Docs">
+            Qomicex Core Docs
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="搜索" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="类型列表">类型列表</h1>
+
+<p>这里是Qomicex Core中所有的的类型列表。</p>
+<h2 id="launcherparam">LauncherParam</h2>
+<p>该类型派生自<a href="#launch"><code>Launch</code></a>类，用于储存游戏启动的必要参数。</p>
+<table>
+<thead>
+<tr>
+<th>名称</th>
+<th>类型</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>GameDir</td>
+<td><code>string</code></td>
+<td>游戏目录</td>
+</tr>
+<tr>
+<td>LauncherName</td>
+<td><code>string</code></td>
+<td>启动器名称</td>
+</tr>
+<tr>
+<td>Java</td>
+<td><a href="#java"><code>Java</code></a></td>
+<td>Java信息</td>
+</tr>
+<tr>
+<td>FullScreen</td>
+<td><code>bool</code></td>
+<td>是否全屏</td>
+</tr>
+<tr>
+<td>Width</td>
+<td><code>string</code></td>
+<td>游戏窗口宽度，默认854</td>
+</tr>
+<tr>
+<td>Height</td>
+<td><code>string</code></td>
+<td>游戏窗口高度，默认480</td>
+</tr>
+<tr>
+<td>...</td>
+<td>...</td>
+<td>同<a href="#launch"><code>Launch</code></a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="account">Account</h2>
+<table>
+<thead>
+<tr>
+<th>名称</th>
+<th>类型</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Name</td>
+<td><code>string</code></td>
+<td>用户名称</td>
+</tr>
+<tr>
+<td>Uuid</td>
+<td><code>string</code></td>
+<td>用户唯一标识符（UUID）</td>
+</tr>
+<tr>
+<td>Token</td>
+<td><code>string</code></td>
+<td>登录令牌</td>
+</tr>
+<tr>
+<td>AccessToken</td>
+<td><code>string</code></td>
+<td>访问令牌，默认值为 <code>&quot;0&quot;</code></td>
+</tr>
+<tr>
+<td>RefreshToken</td>
+<td><code>string</code></td>
+<td>用于刷新访问令牌</td>
+</tr>
+<tr>
+<td>LoginMethod</td>
+<td><code>string</code></td>
+<td>登录方式，如 <code>&quot;Legacy&quot;</code></td>
+</tr>
+</tbody>
+</table>
+<h2 id="java">Java</h2>
+<p>类型用于储存Java信息</p>
+<table>
+<thead>
+<tr>
+<th>名称</th>
+<th>类型</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Name</td>
+<td><code>string</code></td>
+<td>名称</td>
+</tr>
+<tr>
+<td>Path</td>
+<td><code>string</code></td>
+<td>路径</td>
+</tr>
+<tr>
+<td>Version</td>
+<td><code>string</code></td>
+<td>版本号</td>
+</tr>
+<tr>
+<td>VersionID</td>
+<td><code>int</code></td>
+<td>版本标识符</td>
+</tr>
+<tr>
+<td>Type</td>
+<td><code>string</code></td>
+<td>类型</td>
+</tr>
+<tr>
+<td>Arch</td>
+<td><code>string</code></td>
+<td>架构（如 x64）</td>
+</tr>
+</tbody>
+</table>
+<h2 id="launch">Launch</h2>
+<p>用于储存游戏启动的必要参数。</p>
+<table>
+<thead>
+<tr>
+<th>名称</th>
+<th>类型</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Account</td>
+<td><a href="#account"><code>Account</code></a></td>
+<td>用户账户信息</td>
+</tr>
+<tr>
+<td>Java</td>
+<td><a href="#java"><code>Java</code></a></td>
+<td>Java 环境信息</td>
+</tr>
+<tr>
+<td>WindowSize.Width</td>
+<td><code>string</code></td>
+<td>游戏窗口宽度，默认 854</td>
+</tr>
+<tr>
+<td>WindowSize.height</td>
+<td><code>string</code></td>
+<td>游戏窗口高度，默认 480</td>
+</tr>
+<tr>
+<td>DevideVersion</td>
+<td><code>bool</code></td>
+<td>版本隔离</td>
+</tr>
+<tr>
+<td>AdditionalParam</td>
+<td><code>string</code></td>
+<td>启动器附加参数</td>
+</tr>
+<tr>
+<td>Version</td>
+<td><code>string</code></td>
+<td>启动器指定版本号</td>
+</tr>
+<tr>
+<td>MaxMemory</td>
+<td><code>string</code></td>
+<td>最大分配内存，如 &quot;4096&quot;</td>
+</tr>
+</tbody>
+</table>
+<h2 id="version">Version</h2>
+<p>储存Minecraft版本信息的类型。</p>
+<table>
+<thead>
+<tr>
+<th>名称</th>
+<th>类型</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>GameDir</td>
+<td><code>string</code></td>
+<td>游戏根目录路径</td>
+</tr>
+<tr>
+<td>Name</td>
+<td><code>string</code></td>
+<td>版本名称</td>
+</tr>
+<tr>
+<td>Type</td>
+<td><code>string[]</code></td>
+<td>ModLoader类型标签，如 [&quot;OptiFine-{version}&quot;, &quot;Forge-{version}&quot;]</td>
+</tr>
+<tr>
+<td>GameVersion</td>
+<td><code>string</code></td>
+<td>游戏版本号，如 &quot;1.20.1&quot;</td>
+</tr>
+<tr>
+<td>VersionDir</td>
+<td><code>string</code></td>
+<td>版本文件夹路径</td>
+</tr>
+<tr>
+<td>State</td>
+<td><code>string</code></td>
+<td>当前状态，如 &quot;Available&quot;</td>
+</tr>
+<tr>
+<td>StateDescribe</td>
+<td><code>string</code></td>
+<td>状态描述，如 &quot;Everything is OK&quot;</td>
+</tr>
+</tbody>
+</table>
+<h2 id="oauthresponse">OAuthResponse</h2>
+<table>
+<thead>
+<tr>
+<th>名称</th>
+<th>类型</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>DeviceCode</td>
+<td><code>string</code></td>
+<td>设备授权码，用于设备端轮询授权状态</td>
+</tr>
+<tr>
+<td>UserCode</td>
+<td><code>string</code></td>
+<td>用户输入的验证码，用于在验证页面完成授权</td>
+</tr>
+<tr>
+<td>VerificationUri</td>
+<td><code>string</code></td>
+<td>用户访问的验证地址，用于输入验证码完成授权</td>
+</tr>
+<tr>
+<td>ExpiresIn</td>
+<td><code>int</code></td>
+<td>授权码的有效时间（秒）</td>
+</tr>
+<tr>
+<td>Interval</td>
+<td><code>int</code></td>
+<td>轮询授权状态的时间间隔（秒）</td>
+</tr>
+</tbody>
+</table>
+<h2 id="state">State</h2>
+<p>MainTools 中的用于存储状态的类型。</p>
+<table>
+<thead>
+<tr>
+<th>名称</th>
+<th>类型</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Name</td>
+<td><code>string</code></td>
+<td>当前状态，如 &quot;Available&quot;,&quot;Error&quot;,&quot;Warn&quot;</td>
+</tr>
+<tr>
+<td>Describe</td>
+<td><code>string</code></td>
+<td>状态描述，如 &quot;Everything is OK&quot;</td>
+</tr>
+</tbody>
+</table>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/TheMyceliumOfAntan/Qomicex-Project/blob/master/Qomicex.Core.Docs/articles/DataDetails.md/#L1" class="edit-link">编辑本文</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
